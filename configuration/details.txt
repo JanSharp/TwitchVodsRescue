@@ -1,0 +1,3191 @@
+Title: [H] Short little mute stream. Lockstep looking good, entity system struggling | Learning about remote player tracking data
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10540 seconds
+Created at: 2025-02-10 04:14:27
+
+Title: [H] Entity Extension System on top of a GameObject Component system, smile
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 24
+Length: 12050 seconds
+Created at: 2024-12-30 04:00:23
+
+Title: [H] Arduino + SD + RTC + Light sensor = ~~pain~~ power usage logging!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 9
+Length: 7158 seconds
+Created at: 2024-12-12 16:35:13
+
+Title: [H] ...
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 890 seconds
+Created at: 2024-12-11 19:28:43
+
+Title: [H] About to snap? Idk, maybe | Just chatting, first about life and then - you guessed it - programming/technical stuff
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 6740 seconds
+Created at: 2024-12-11 03:21:13
+
+Title: [H] Attaching Transforms to player bones and tracking data generically - creating a library for it
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 13
+Length: 9410 seconds
+Created at: 2024-11-07 19:24:04
+
+Title: [H] Life update...
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 39
+Length: 1135 seconds
+Created at: 2024-09-21 09:49:09
+
+Title: [H] Some programming, talking and UI creation - mainly for Lockstep | No noise suppression initially, but better stream quality later
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 28
+Length: 9930 seconds
+Created at: 2024-08-16 15:10:56
+
+Title: [H] How To Make Admin/GM/DM Only Toggles
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 5040 seconds
+Created at: 2024-08-07 15:03:59
+
+Title: [H] Creating a happy little TP to Player UI, with a list and pins and such
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 17
+Length: 13280 seconds
+Created at: 2024-07-25 20:58:18
+
+Title: [H] Custom Interacts and Pickups, we continue PauseChamp
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 13790 seconds
+Created at: 2024-07-23 12:00:46
+
+Title: [H] Custom Interacts and Pickups, it is time PogChamp
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 9134 seconds
+Created at: 2024-07-22 20:38:48
+
+Title: [H] AA Map Work | Time to replace 318 teleport scripts... alright I'll write a script to automate it
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 16500 seconds
+Created at: 2024-07-18 15:33:00
+
+Title: [H] AA Map Work | Getting the main Academy map back in working order
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6910 seconds
+Created at: 2024-07-17 19:20:44
+
+Title: [H] AA Map Work | Item System changes, slowly working towards updating the main academy map | Music in the VOD PauseChamp
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 9894 seconds
+Created at: 2024-07-17 13:55:07
+
+Title: [H] AA Map Work | The little things, like wrist menu auto scaling, some colliders, static flags and gpu instnacing
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 12
+Length: 12700 seconds
+Created at: 2024-07-11 20:49:17
+
+Title: [H] When Unity tells you no, you say no back... and reimplement object, component and asset reference resolution yourself
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 9680 seconds
+Created at: 2024-07-06 14:51:34
+
+Title: [H] AA Map Work | No Mic for the first few mins | Just removing some ProBuilder for a bit. Numbers go down!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 5890 seconds
+Created at: 2024-07-01 03:16:45
+
+Title: [H] AA Map Work | ProBuilder begone part... idk I lost count | Not quite so tiny stream
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8546 seconds
+Created at: 2024-06-28 00:28:35
+
+Title: [H] AA Map Work | ProBuilder begone part... idk I lost count | Tiny stream
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 3050 seconds
+Created at: 2024-06-27 20:24:51
+
+Title: [H] FMTK LuaLS Plugin | Adding options to plugin args to modify require paths through lua patterns
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 5720 seconds
+Created at: 2024-06-13 19:56:00
+
+Title: [H] FMTK LuaLS Plugin | Adding a proper plugin args parser
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7186 seconds
+Created at: 2024-06-10 22:58:41
+
+Title: [H] Ascension Academy Map Work | Part 3 | Sleepy, no plans, and it does not go well
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 4800 seconds
+Created at: 2024-06-05 19:12:00
+
+Title: [H] Ascension Academy Map Work | Part 2 | Sleepy, no plans, and it does not go well
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 4801 seconds
+Created at: 2024-06-05 19:10:12
+
+Title: [H] Ascension Academy Map Work | Part 1 | Sleepy, no plans, and it does not go well
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 670 seconds
+Created at: 2024-06-05 19:06:04
+
+Title: [H] Stategy game time
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8176 seconds
+Created at: 2024-06-01 22:45:52
+
+Title: [H] Ascension Academy Map Work | Highly recommend to skip to 50 minutes in | Adding some utility scripts for UI toggles
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 10165 seconds
+Created at: 2024-05-27 01:14:30
+
+Title: [H] Ascension Academy Map Work | Doing random things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 20671 seconds
+Created at: 2024-05-24 03:34:56
+
+Title: [H] Unity Editor Scripting | Unity's hierarchy selection handling is mediocre, I need something more powerful
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 17698 seconds
+Created at: 2024-05-20 22:56:11
+
+Title: [H] Ascension Academy Map Work | We've got the tools, time to clean up and remove some ProBuilder meshes
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 18839 seconds
+Created at: 2024-05-18 23:18:27
+
+Title: [H] Ascension Academy Map Work | Today's plan will work flawlessly, surely
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 14095 seconds
+Created at: 2024-05-16 00:04:42
+
+Title: [H] Ascension Academy Map Work | Learnging how to export meshes as obj files
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 11
+Length: 18295 seconds
+Created at: 2024-05-14 23:59:34
+
+Title: [H] VRC and Udon hate version control, Unity dislikes version control, git lfs tricks you, git loves you and I'm looking for a way out
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 10972 seconds
+Created at: 2024-05-13 21:43:15
+
+Title: [H] AA PauseChamp | Writing git filters to reduce merge conflicts caused by Udon and UdonSharp
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 11
+Length: 18168 seconds
+Created at: 2024-05-12 00:17:04
+
+Title: [H] Lockstep Networking | Turns out master changing in general was (and is) broken
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 9244 seconds
+Created at: 2024-05-03 00:33:08
+
+Title: [H] Lockstep Networking | Starting work on master change requests, what an absolute beast
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 17525 seconds
+Created at: 2024-04-30 23:28:07
+
+Title: [H] Lockstep Networking | Idk what to do, but I pressed the stream button
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 11555 seconds
+Created at: 2024-04-29 04:15:19
+
+Title: [H] VFXTarget Gun | Adding import/export support | Late stream
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9087 seconds
+Created at: 2024-04-24 03:16:07
+
+Title: [H] VFXTarget Gun | Fixing 1 out of 2 bugs in 1 hour, then implementing latency hiding, once again successfully!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 11433 seconds
+Created at: 2024-04-19 21:45:11
+
+Title: [H] VFXTarget Gun | Rewriting networking to use Lockstep - successfully!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 13215 seconds
+Created at: 2024-04-19 15:00:46
+
+Title: [H] LockStep networking and then VFXTargetGun | More TODOs, then actually using the system!
+Description: Ignore the fact that I typo-ed github.com and hit enter in the middle, so I then made sure to invalidate my session tokens, and while that was happening I also forgot to mute the music for the VOD so a part of it got muted and since you couldn't see anything I was doing I just cut that part out. Yea, ignore that, nothing happened.
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 15469 seconds
+Created at: 2024-04-19 00:25:12
+
+Title: [H] LockStep networking | Working through TODOs
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 16654 seconds
+Created at: 2024-04-15 21:48:07
+
+Title: [H] Working on some projects purely for the fun of it
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7792 seconds
+Created at: 2024-04-09 20:06:45
+
+Title: [H] Modded FortressCraft Evolved | Just chilling, playing a game, nothing too crazy
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 16950 seconds
+Created at: 2024-03-26 22:47:39
+
+Title: [H] Catch up time (and a little bit of programming later)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8343 seconds
+Created at: 2024-03-23 20:48:02
+
+Title: [H] inserter-throughput-lib dev | Improving the api | no mic, or rather just relaxed typing (except for 1 short bit of talking early on)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 10510 seconds
+Created at: 2024-01-24 00:18:15
+
+Title: [H] FMTK LuaLS Plugin Dev | Have fun deciphering that title
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 9200 seconds
+Created at: 2024-01-14 22:48:50
+
+Title: [H] Quick Adjustable Inserters Dev | Ghost support | I just felt like streaming. Maybe I'll talk, maybe not. Who knows!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8719 seconds
+Created at: 2023-12-29 00:57:43
+
+Title: [H] Quick Adjustable Inserters Dev | A bit of muted progress. Can't distract myself by talking if the mic is off! Just for the first half :P
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 14413 seconds
+Created at: 2023-12-15 22:42:15
+
+Title: [H] Inserters... Inserters everywhere. All I see is vectors, circles and numbers. There is no escape
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 6405 seconds
+Created at: 2023-12-13 16:03:25
+
+Title: [H] Quick Adjustable Inserters Dev | Progress has been made. Maybe some more today
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 11295 seconds
+Created at: 2023-11-23 22:50:54
+
+Title: [H] Quick Adjustable Inserters Dev | Working through the TODO list, mostly force related
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6690 seconds
+Created at: 2023-11-13 00:35:04
+
+Title: [H] Quick Adjustable Inserters Dev | Recap off stream work and more polish
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8977 seconds
+Created at: 2023-11-12 19:59:57
+
+Title: [H] Quick Adjustable Inserters Dev | Lots of little steps leading to good progress. Starting to see it working
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 19341 seconds
+Created at: 2023-11-11 23:20:11
+
+Title: [H] Quick Adjustable Inserters Dev | Refactoring and improving reachable tile evaluation, and related stuff
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 8159 seconds
+Created at: 2023-11-11 23:17:38
+
+Title: [H] Frontier Extended scenario (Excuse the 2.5k bitrate)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 5222 seconds
+Created at: 2023-11-07 00:19:06
+
+Title: [H] Recapping a bit and talking about random stuff and things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8506 seconds
+Created at: 2023-11-07 00:13:24
+
+Title: [H] A splits program for speed running implemented using Factorio. In other words: Fun!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 8398 seconds
+Created at: 2023-10-02 01:41:59
+
+Title: [H] simhelper function capture troubleshooting
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1772 seconds
+Created at: 2023-10-02 01:24:14
+
+Title: [H] Phobos | At this point you can guess what I'm working on. Bingo! It's IL compilation. I had a great idea though
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 7078 seconds
+Created at: 2023-10-02 01:17:07
+
+Title: [H] Doing what I want to do, which ended up being Wave Defense speedruns
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 14480 seconds
+Created at: 2023-09-21 22:55:04
+
+Title: [H] Unity is dead
+Description: [https://blog.unity.com/news/plan-pricing-and-packaging-updates](https://blog.unity.com/news/plan-pricing-and-packaging-updates) [https://www.youtube.com/watch?v=JQSDsjJAics](https://www.youtube.com/watch?v=JQSDsjJAics) And regarding Unity Personal requiring to be online starting November: [https://unity.com/pricing-updates](https://unity.com/pricing-updates) I should add that the only way for Unity to regain my trust is by getting a new CEO and preferably also a new management team behind said CEO, as well as reverting all of these changes. Maybe use revenue share instead, you know. The thing that we know works. And Unity Personal should be usable offline. There's nothing to argue there.
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 1280 seconds
+Created at: 2023-09-14 13:32:22
+
+Title: [H] WindowManager | A bit of refactoring for anchors
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8768 seconds
+Created at: 2023-09-05 21:28:29
+
+Title: [H] Phobos | Intermediate language register liveliness interference graph vertex coloring. And I'm not just throwing fancy words together
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 9597 seconds
+Created at: 2023-09-02 20:21:37
+
+Title: [H] Udon Dev | Music Control polish, working through the TODO list
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 11339 seconds
+Created at: 2023-08-14 00:38:26
+
+Title: [H] Mod Dev | Quick Adjustable Inserters | let's see how far I get
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 9909 seconds
+Created at: 2023-08-08 22:41:43
+
+Title: [H] Udon Dev | Music Control | Adding a lot of new features and improving quality of life
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 22545 seconds
+Created at: 2023-08-05 01:09:18
+
+Title: [H] Udon Dev | Open source everything! | Recap VPMPublsih and my own VCC listing webpage and the package migration process
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 13139 seconds
+Created at: 2023-07-28 22:39:19
+
+Title: [H] Udon Dev | Recapping the VCC listing json generation that I did off stream and then genreating the human readable page
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 10
+Length: 4475 seconds
+Created at: 2023-07-12 15:19:04
+
+Title: [H] Udon Dev | Refactoring a bit and starting on the VCC listing website generator
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 11968 seconds
+Created at: 2023-07-11 14:53:41
+
+Title: [H] Udon Dev | VPMPublish, finishing changelog generation, writing documentation and discussing website generation
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8079 seconds
+Created at: 2023-07-10 21:21:51
+
+Title: [H] Udon Dev | Generating changelog drafts for a custom VPM publish script
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6550 seconds
+Created at: 2023-07-09 10:50:36
+
+Title: [H] Udon Dev | Still writing a custom VPM (VRChat Package Manager) publish script/program | Publish command done!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7136 seconds
+Created at: 2023-07-08 15:18:51
+
+Title: [H] Udon Dev | Still writing a custom VPM (VRChat Package Manager) publish script/program, again good progress
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7595 seconds
+Created at: 2023-07-08 10:37:24
+
+Title: [H] Udon Dev | Writing a custom VPM (VRChat Package Manager) publish script/program. Unusual start, but then good Pogress
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 12418 seconds
+Created at: 2023-07-06 22:02:32
+
+Title: [H] Udon Dev | Manually publishing a VPM package and creating a VCC listing, then writing down the steps
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5442 seconds
+Created at: 2023-06-30 19:42:54
+
+Title: [H] Udon Dev | What if "enums + extension methods = custom data structures in UdonSharp"?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 2132 seconds
+Created at: 2023-06-30 19:39:31
+
+Title: [H] Udon Dev | Figuring out how to make VCC/VPM packages and VCC listings... my own way | Short break with Satisfactory in between
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 11300 seconds
+Created at: 2023-06-28 20:27:54
+
+Title: [H] Udon Dev | Updating my scripts... again. This time because I learned how to do editor scripting more correctly
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 14528 seconds
+Created at: 2023-06-19 22:34:55
+
+Title: [H] Udon Dev | Updating the last of my scripts, all of the syncing fixed!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 14906 seconds
+Created at: 2023-06-15 22:19:50
+
+Title: [H] Udon Dev | Player TP menu & utilities | No Networking! I'll actually get stuff done! (first some catching up)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 13004 seconds
+Created at: 2023-06-09 22:46:37
+
+Title: [H] Udon Dev Stuff... But in Lua? | Still working on this, good progress though and I can finally talk about it (context not provided)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5791 seconds
+Created at: 2023-06-05 23:25:51
+
+Title: [H] Udon Dev Stuff... But in Lua? | Simulation of Udon Networking | Lot's of theory, lot's of talking
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4590 seconds
+Created at: 2023-05-14 22:48:40
+
+Title: [H] Udon Dev Stuff... But in Lua? | Simulating all kinds of ways Udon _might_ be implemented, so that I can more easily test syncing
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5041 seconds
+Created at: 2023-05-14 12:44:57
+
+Title: [H] Udon Dev Stuff... But in Lua? | While Unity is having a crash party, I'll just prototype in the sacrad lands of Lua
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 8477 seconds
+Created at: 2023-05-11 20:34:19
+
+Title: [H] Udon Dev Stuff... But in Lua? | While Unity is having a crash party, I'll just prototype in the sacrad lands of Lua
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8988 seconds
+Created at: 2023-05-10 22:16:12
+
+Title: [H] Udon Dev Stuff | Trying to get Unity to stop crashing, further cleaning up the project and fixing things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 14879 seconds
+Created at: 2023-05-09 22:23:08
+
+Title: [H] Udon Dev Stuff | We continue cleaning the project and testing things. Probably won't get to use Lists or Dictionaries today either, tbh
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8618 seconds
+Created at: 2023-05-07 23:13:01
+
+Title: [H] Udon Dev Stuff | I said I wouldn't... but then Lists and Dictionaries got added. I mean, how could I resist! | (Not actually using them)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 11806 seconds
+Created at: 2023-05-06 23:18:38
+
+Title: [H] Lua Table serializer directly to bytecode
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 9379 seconds
+Created at: 2023-04-09 23:46:52
+
+Title: [H] Anno 1800 | Rough start to the stream, and bad bitrate (I forgot). PepeHands. Aside from that, starting a new world, going pretty well
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 6877 seconds
+Created at: 2023-04-05 22:18:01
+
+Title: [H] [Part 45] Phobos | Adding some validation to linq | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4950 seconds
+Created at: 2023-04-04 23:12:48
+
+Title: [H] Random chit chat about myself and programming stuff | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5055 seconds
+Created at: 2023-04-04 23:09:27
+
+Title: [H] [Part 44] Phobos | Finishing move instructions for register groups at special instruction groups
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4010 seconds
+Created at: 2023-03-27 15:31:34
+
+Title: [H] [Part 43] Phobos | Some infrastructure for IL transformations, specifically to replace registers in IL instructions needed for compiling
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 11285 seconds
+Created at: 2023-03-17 19:23:56
+
+Title: [H] [Part 42] Phobos | I thought I was done with Linq, I thought wrong | No Mic | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 7225 seconds
+Created at: 2023-03-12 14:32:02
+
+Title: [H] [Part 41] Phobos | Adding a diff output option to the test runner and implementing table pretty printing for better diffs | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 12157 seconds
+Created at: 2023-03-07 23:08:47
+
+Title: [H] [Part 40] Phobos | A couple of Linq adjustments and a short attempt at continuing work IL register list/group compilation | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 5987 seconds
+Created at: 2023-03-06 15:04:22
+
+Title: [H] Window Manager | Converting the window manager I made into a standalone mod and improving maximize logic | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 10556 seconds
+Created at: 2023-02-08 22:43:11
+
+Title: [H] Factorio Sumneko Lua Plugin | Tiny bit of cleaning up and adding LuaObject type narrowing using object_name | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 6211 seconds
+Created at: 2022-11-25 03:44:45
+
+Title: [H] [Part 39] Phobos | Writing a script to strip everything but docs from a file, then some cleaning up and some IL for loop work
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 9203 seconds
+Created at: 2022-11-15 00:07:05
+
+Title: [H] Why I should not stream VRChat Udon development
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 832 seconds
+Created at: 2022-11-14 23:01:12
+
+Title: [H] VRC Udon | Figuring out networking a bit more... | The second quarter of the stream is maybe worth watching, the rest isn't
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 9658 seconds
+Created at: 2022-11-14 18:22:24
+
+Title: [H] [Part 38] Phobos | Fixing bugs in the IL compiler. And, spoiler, the stream leads up to a big success in the end!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 9
+Length: 11347 seconds
+Created at: 2022-11-09 01:20:37
+
+Title: [H] A talk about networking in VRChat's Udon (using UdonSharp) | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 8936 seconds
+Created at: 2022-11-08 01:51:22
+
+Title: [H] Preparing for a talk about networking in VRChat's Udon (using UdonSharp) | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9678 seconds
+Created at: 2022-11-08 00:49:27
+
+Title: [H] Dealing with require loops in Lua | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5227 seconds
+Created at: 2022-11-01 04:28:21
+
+Title: [H] [Part 37] Phobos | Compiling register lists from intermediate language to Lua bytecode
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5543 seconds
+Created at: 2022-10-30 19:11:15
+
+Title: [H] Factorio GUI Editor | The list of TODOs for the window manager is getting smaller... maybe
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 5418 seconds
+Created at: 2022-10-20 16:24:30
+
+Title: [H] Factorio GUI Editor | Continuing work on window anchors
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5333 seconds
+Created at: 2022-10-20 14:32:15
+
+Title: [H] Factorio GUI Editor | Redoing window anchors | Trying my best to talk quietly | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4520 seconds
+Created at: 2022-10-19 04:55:01
+
+Title: [H] [Highlight Part 2/2] Factorio GUI Editor | Chipping away at TODOs, mostly window manager related
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4212 seconds
+Created at: 2022-10-16 22:52:22
+
+Title: [H] [Highlight Part 1/2] Factorio GUI Editor | Chipping away at TODOs, mostly window manager related
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9230 seconds
+Created at: 2022-10-16 22:31:33
+
+Title: [H] Factorio GUI Editor | Improving the window manager | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9593 seconds
+Created at: 2022-10-11 22:20:36
+
+Title: [H] Factorio GUI Editor | Making a Script Text Box
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 6711 seconds
+Created at: 2022-10-03 19:55:45
+
+Title: [H] Factorio GUI Editor | Refactoring the many layers of abstraction for editors and the data behind them | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7771 seconds
+Created at: 2022-10-01 01:09:44
+
+Title: [H] Factorio Window Manager | I finally found a reason to do this, I'm so excited | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9582 seconds
+Created at: 2022-09-24 22:07:03
+
+Title: [H] Variety Programming | A bit of sumneko.lua plugin work and some C# git tools | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8436 seconds
+Created at: 2022-09-24 00:38:28
+
+Title: [H] Writing git hooks and scripts to work around issues with VRChat's Udon | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5700 seconds
+Created at: 2022-09-22 23:17:27
+
+Title: [H] GUI Editor | Making a GUI to make GUIs in Factorio, FeelsGoodMan | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10978 seconds
+Created at: 2022-09-15 05:02:05
+
+Title: [H] Just working | Hi. I pressed the button. Didn't really plan this, so there's no good title for this, so uh yea... Hi! | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 2957 seconds
+Created at: 2022-08-22 00:40:20
+
+Title: [H] [Part 36] Phobos | Having fun with IL modification and compilation | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 10612 seconds
+Created at: 2022-08-17 20:20:14
+
+Title: [H] How to spread out a mod's workload, writing a bit of documentation/a tutorial | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 4504 seconds
+Created at: 2022-06-21 14:33:47
+
+Title: [H] [Part 35] Phobos | Design Requirements and why Phobos hasn't been progressing | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 2956 seconds
+Created at: 2022-05-22 04:15:29
+
+Title: [H] [Part 34] Phobos | Intermediate Language Type System (attempt 5 or something) | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 10786 seconds
+Created at: 2022-05-10 23:45:22
+
+Title: [H] [Part 33] Phobos | Refactoring and improving AST, stat_elem begone! | I need a break from profiles | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10849 seconds
+Created at: 2022-04-26 17:21:09
+
+Title: [H] [Part 32] Phobos | Exploring ideas regarding static and dynamic includes and require path resolution | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3615 seconds
+Created at: 2022-04-26 17:19:16
+
+Title: [H] [Part 31] Phobos | Writing more tests. Build profile cache tests | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 7370 seconds
+Created at: 2022-04-15 02:21:00
+
+Title: [H] [Part 30] Phobos | A layer of abstraction I should have realized I needed much sooner. the io_util, but better | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8099 seconds
+Created at: 2022-04-08 03:35:00
+
+Title: [H] [Part 29] Phobos | Tests tests tests. EmmyLua linker tests. So many tests. Almost 1000! So many. Tests. | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 12903 seconds
+Created at: 2022-04-06 00:24:57
+
+Title: [H] [Part 28] Phobos | Write type annotations for the EmmyLua parser and generate a tiny bit of markdown and html docs | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 5055 seconds
+Created at: 2022-03-29 00:49:11
+
+Title: [H] A little bit of Horizon Zero Dawn for testing and for fun
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 1851 seconds
+Created at: 2022-03-29 00:45:19
+
+Title: [H] [Part 27] Phobos | Parsing EmmyLua comments and resolving type references | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 7438 seconds
+Created at: 2022-03-26 04:17:58
+
+Title: [H] [Part 26] Phobos | Parsing EmmyLua comments setting up for generation of documentation from them | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10048 seconds
+Created at: 2022-03-26 04:16:45
+
+Title: [H] I wanted to try streaming Horizon Zero Dawn, but that didn't happen so I'm just talking about random stuff
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 2482 seconds
+Created at: 2022-03-24 19:54:57
+
+Title: [H] [Part 25] Phobos | Chilling and making a bit of progress with build profiles | No Music
+Description: The start is a bit weird because I decided to cut this stream into 2 highlights. This one is much more positive. For context: it starts with compiling all factorio mods, which takes about 13 minutes.
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4855 seconds
+Created at: 2022-03-24 19:53:23
+
+Title: [H] [Part 24] Phobos | Absolutely NOT having fun with cross platform stuff and just in general not having fun | No Music
+Description: The end is suddenly cut off because I decided to cut this stream into 2 highlights to have the more positive part of the stream in its video.
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5740 seconds
+Created at: 2022-03-24 19:51:02
+
+Title: [H] [Part 23] Phobos | Update a bit of stuff and then work on virtual file system for tests | I pressed the stream button. Hi! | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 10705 seconds
+Created at: 2022-03-20 20:23:18
+
+Title: [H] [Part 22] Phobos | Binary Serialization stuff | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 10583 seconds
+Created at: 2022-03-12 14:21:08
+
+Title: [H] [Part 21] Phobos | Build Profiles | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10080 seconds
+Created at: 2022-03-03 23:54:29
+
+Title: [H] [Part 20] Phobos | Refactoring, cleaning up, writing tests, fixing publish script, idk, just felt like streaming | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5288 seconds
+Created at: 2022-02-18 14:55:19
+
+Title: [H] [Part 19] Phobos | Fixing concats with parenthesis and writing tests
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 5738 seconds
+Created at: 2022-02-10 02:15:11
+
+Title: [H] Anno 1800 | Hello (New) World! ... get it?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 7098 seconds
+Created at: 2022-02-10 02:11:20
+
+Title: [H] Anno 1800 | Late night Anno, because why not
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 15139 seconds
+Created at: 2022-02-08 05:35:18
+
+Title: [H] [Part 18] Phobos | Writing a few more expression parsing tests and talking a lot | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7206 seconds
+Created at: 2022-02-07 04:01:07
+
+Title: [H] Anno 1800 | Chilling with some Anno | Restarting with a bit more chill settings
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 14137 seconds
+Created at: 2022-02-07 03:56:28
+
+Title: [H] [Part 17] Phobos | Grinding Tests and fixing some hilarious and spicy bugs | No Music, keyboard sounds for fun
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7012 seconds
+Created at: 2022-02-07 03:48:20
+
+Title: [H] Anno 1800 | First time playing Anno 1800, Pog! | Trying out how it feels to stream the game at the same time
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 12246 seconds
+Created at: 2022-02-05 03:42:03
+
+Title: [H] [Part 16] Phobos | Grinding Tests | Mute
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 9926 seconds
+Created at: 2022-02-05 03:37:21
+
+Title: [H] [Part 15] Phobos | Grinding Tests. Or, well, figuring out how to test the parser | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 11292 seconds
+Created at: 2022-02-01 05:12:57
+
+Title: [H] Writing the testing framework I wish I had, then realizing just how hard it is to use Phobos in 0.1.1 | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7927 seconds
+Created at: 2022-02-01 05:11:20
+
+Title: [H] Pipe Visualizer | How hard is it to get "pipe networks" | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 17883 seconds
+Created at: 2022-01-28 18:28:37
+
+Title: [H] My opinion on Testing Frameworks and Assertion Libraries and why I'm writing my own | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 3160 seconds
+Created at: 2022-01-28 18:26:13
+
+Title: [H] Checking out Testorio | A testing framework for Factorio mods | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 2641 seconds
+Created at: 2022-01-23 03:45:47
+
+Title: [H] Simulation Function Capture | metatables... I kind of forgot about those. Oops | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 3793 seconds
+Created at: 2022-01-23 03:44:33
+
+Title: [H] Simulation Function Capture | more tests and more infrastructure | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 11407 seconds
+Created at: 2022-01-22 01:46:13
+
+Title: [H] Simulation Function Capture | tests. for real this time... like 1 hour into the stream LUL | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 10552 seconds
+Created at: 2022-01-20 04:11:14
+
+Title: [H] Mod Code Review | flexible-modules | Just a few Lua and modding tips | I also talk about simhelper testing at the end | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 4597 seconds
+Created at: 2022-01-19 18:35:28
+
+Title: [H] Simulation Function Capture | More finishing touches | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3246 seconds
+Created at: 2022-01-19 18:24:17
+
+Title: [H] [Part 14] Phobos | Language Extensions! I refuse to do IL => bytecode right now | Mute, then some keyboard ASMR
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8516 seconds
+Created at: 2022-01-18 03:14:03
+
+Title: [H] [Part 13] Phobos | Language Extensions! (compiler part for safe chaining) | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 6133 seconds
+Created at: 2022-01-18 03:12:25
+
+Title: [H] Data Stage Profiling | Trying to use 'print' to get current times with an external program... and, well, setting up dotnet | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 10122 seconds
+Created at: 2022-01-15 20:37:42
+
+Title: [H] Simulation Function Capture | Performance Testing... Or rather writing a "data stage profiling" tool | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4829 seconds
+Created at: 2022-01-14 03:55:13
+
+Title: [H] Slay the Spire | A short run to take a short break from Factorio modding while eating
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 2462 seconds
+Created at: 2022-01-14 03:50:25
+
+Title: [H] Simulation Function Capture | Integrating it into simhelper, fixing stuff, improving stuff, custom restorers, docs | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 12737 seconds
+Created at: 2022-01-14 03:38:39
+
+Title: [H] Simulation Function Capture | Dealing with the function max stack limitation, then preserving table iteration order | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 6726 seconds
+Created at: 2022-01-13 03:07:03
+
+Title: [H] Simulation Function Capture | Improvements and adding support for C functions | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3647 seconds
+Created at: 2022-01-13 03:03:00
+
+Title: [H] Simulation Function Capture | I have an idea that is so stupid that it might actually be good | No music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 14800 seconds
+Created at: 2022-01-13 02:59:14
+
+Title: [H] SumnekoLuaPluginDevEnv | Using Factorio to make and debug sumneko.lua plugins, because why not | Setting up a repo
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 6628 seconds
+Created at: 2022-01-12 19:30:32
+
+Title: [H] [Part 12] Phobos | Continue on syntax errors | Mute at the start, but not for long
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7533 seconds
+Created at: 2022-01-12 19:28:19
+
+Title: [H] [Part 11] Phobos | General organization stuff like the readme, building and the debugging setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 6189 seconds
+Created at: 2022-01-12 19:26:49
+
+Title: [H] Talking about Manjaro, my setup, the good and the bad, and trying a couple of things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4496 seconds
+Created at: 2022-01-04 22:17:44
+
+Title: [H] Improving Factorio Sumneko Lua Plugin Documentation
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8124 seconds
+Created at: 2022-01-04 22:04:03
+
+Title: [H] [Part 1] Ori and the Will of the Wisps) | First stream from Linux (Ubuntu)! Yay! | Just chatting with a game in the background
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 6859 seconds
+Created at: 2022-01-04 21:52:09
+
+Title: [H] [Part 13] [Run 09.1] Chrono Ark | First stream from Linux (Ubuntu)! Yay! Mostly just chatting, hardly playing the game
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 1372 seconds
+Created at: 2022-01-04 21:45:53
+
+Title: [H] [Part 10] Phobos | Properly implementing upvalues for IL (#1 ?) | Trying out this microphone, specifically when talking quietly
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 2693 seconds
+Created at: 2021-11-30 02:53:47
+
+Title: [H] [Part 12] [Run 08.1] Chrono Ark | Oh wait, I already had a run started. Well, time to make Trisha slightly strong
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 10
+Length: 8337 seconds
+Created at: 2021-11-29 15:16:20
+
+Title: [H] [Part 2] Puzzletory | I said I'd continue this, and so I shall
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8957 seconds
+Created at: 2021-11-29 15:10:07
+
+Title: [H] [Part 9] Phobos | Intermediate Language (#1 ?) generation from AST (the rest of the statements) | Talking about Compilers | No Music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 7045 seconds
+Created at: 2021-11-27 02:15:31
+
+Title: [H] [Part 4] TrackMania Canyon WTC | Basically just chatting
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 4432 seconds
+Created at: 2021-11-26 20:26:41
+
+Title: [H] [Part 8] Phobos | Intermediate Language (#1 ?) generation from AST. Mainly statements this time | No music because DMCA
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4362 seconds
+Created at: 2021-11-26 20:22:19
+
+Title: [H] [Part 3] TrackMania Canyon WTC | Oh god I'm muted for over half of it, I was talking so much... oh well, blame hydration!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 2027 seconds
+Created at: 2021-11-24 04:05:06
+
+Title: [H] [Part 7] Phobos | Intermediate Language (#1 ?) generation from AST
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5751 seconds
+Created at: 2021-11-24 03:58:16
+
+Title: [H] [Part 6] Phobos | Intermediate Language (#1 ?) generation from AST
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5491 seconds
+Created at: 2021-11-23 19:17:50
+
+Title: [H] [Part 5] Phobos | AST node util refactor | No music because DMCA
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 8999 seconds
+Created at: 2021-11-10 22:11:28
+
+Title: [H] [Part 4] Phobos | Big register refactor, in this video mostly expressions | Mute
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 15
+Length: 5970 seconds
+Created at: 2021-10-16 02:31:54
+
+Title: [H] [Part 3] Phobos | Implementing more robust yet strict path library
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 8598 seconds
+Created at: 2021-10-05 19:42:47
+
+Title: [H] [Part 11] [R 07.1] Chrono Ark | Once again, one run of Chrono Ark :D | This time a successful Helia + Selena run! Feels a bit broken
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 16371 seconds
+Created at: 2021-09-14 21:43:54
+
+Title: [H] [Part 1] Puzzletory | I generally love puzzles, so let's see what this is
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 17958 seconds
+Created at: 2021-09-04 20:25:48
+
+Title: [H] [Part 10] [R 06.1] Chrono Ark | This game is great! | A run with a Helia/Selena start, big brain deck
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 9938 seconds
+Created at: 2021-09-04 20:19:23
+
+Title: [H] [Part 2] Phobos | Mostly debugging and thinking about how to make a type system work. Logistical stuff, or so | Muted music
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 5863 seconds
+Created at: 2021-09-04 20:16:38
+
+Title: [H] [Part 98] Wave Defense Speedrun | Review and talking about future plans
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1346 seconds
+Created at: 2021-08-26 23:49:02
+
+Title: [H] [Part 97] [Run 44] Wave Defense Speedrun | Chill runs to get back into it. Well, hopefully chill ;)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4161 seconds
+Created at: 2021-08-26 23:45:24
+
+Title: [H] [Part 96] Wave Defense Speedrun | Review and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 599 seconds
+Created at: 2021-08-26 23:42:43
+
+Title: [H] [Part 95] [Run 43] Wave Defense Speedrun | Chill runs to get back into it. Well, hopefully chill ;)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4091 seconds
+Created at: 2021-08-26 23:40:16
+
+Title: [H] [Part 94] Wave Defense Speedrun | Intro/Setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 567 seconds
+Created at: 2021-08-26 23:38:41
+
+Title: [H] [Part 25] GuiGlue (?) Dev | Wanting to do crazy things, ending up just mostly trying to fix/finish data stage style type resolving
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 16
+Length: 5714 seconds
+Created at: 2021-08-01 04:14:54
+
+Title: [H] [Part 24] GuiGlue (?) Dev | Code maintenance and fixing and testing with the test mod
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6311 seconds
+Created at: 2021-08-01 04:11:49
+
+Title: [H] [Part 23] GuiGlue (?) Dev | Bad Mood at the very beginning | Doing stuff and things and data stage styles
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 12173 seconds
+Created at: 2021-08-01 03:55:38
+
+Title: [H] FactorioSumnekoLuaPlugin Dev | Thinking on_event is broken when i'm just on the wrong plugin branch in the factorio mods workspace
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 1221 seconds
+Created at: 2021-08-01 03:50:19
+
+Title: [H] [Part 93] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 412 seconds
+Created at: 2021-07-23 04:09:04
+
+Title: [H] [Part 92] [Run 42] Wave Defense Speedrun | Full focus mode | Look at those splits! Oh wait, comparing against what?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3841 seconds
+Created at: 2021-07-23 04:05:36
+
+Title: [H] [Part 91] Wave Defense Speedrun | Review, taking a small break and to not end on a bad note starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 879 seconds
+Created at: 2021-07-23 04:03:00
+
+Title: [H] [Part 90] [Run 41] Wave Defense Speedrun | Another RIP! Well at least i know why, though it's more meta/irl than run related
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2295 seconds
+Created at: 2021-07-23 03:56:45
+
+Title: [H] [Part 89] Wave Defense Speedrun | Review and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 302 seconds
+Created at: 2021-07-23 03:51:14
+
+Title: [H] [Part 88] [Run 40] Wave Defense Speedrun | Hm, rip RC again. I'm not relaxed enough
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4666 seconds
+Created at: 2021-07-23 03:46:40
+
+Title: [H] [Part 87] Wave Defense Speedrun | Starting another run, so just re-rolling
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 69 seconds
+Created at: 2021-07-23 03:26:18
+
+Title: [H] [Part 86] [Run 39] Wave Defense Speedrun | No idea what to expect, so just chilling and doing a few runs | Rip RC
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3767 seconds
+Created at: 2021-07-23 03:24:07
+
+Title: [H] [Part 85] Wave Defense Speedrun | Intro and some setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 490 seconds
+Created at: 2021-07-23 03:21:20
+
+Title: [H] [Part 84] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 428 seconds
+Created at: 2021-07-12 03:16:01
+
+Title: [H] [Part 83] [Run 38] Wave Defense Speedrun | PB, yay! | It's late, i should probably be doing other things, but i want to do a run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 100
+Length: 3677 seconds
+Created at: 2021-07-12 03:13:46
+
+Title: [H] [Part 82] Wave Defense Speedrun | Intro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 178 seconds
+Created at: 2021-07-12 03:10:09
+
+Title: [H] [Part 81] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 240 seconds
+Created at: 2021-07-10 02:05:39
+
+Title: [H] [Part 80] [Run 37] Wave Defense Speedrun | Another chill run, an even better one
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 23
+Length: 3747 seconds
+Created at: 2021-07-10 02:02:35
+
+Title: [H] [Part 79] Wave Defense Speedrun | Review, chatting and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 299 seconds
+Created at: 2021-07-10 02:00:22
+
+Title: [H] [Part 78] [Run 36] Wave Defense Speedrun | A chill run. Good one at that
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 3765 seconds
+Created at: 2021-07-10 01:58:10
+
+Title: [H] [Part 77] Wave Defense Speedrun | Intro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 141 seconds
+Created at: 2021-07-10 01:54:09
+
+Title: [H] [Part 76] Wave Defense Speedrun | Review and end
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 146 seconds
+Created at: 2021-07-10 01:52:26
+
+Title: [H] [Part 75] [Run 35] Wave Defense Speedrun | Bots/Robo ports need more planning, doing a "normal" chilll run instead
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3953 seconds
+Created at: 2021-07-10 01:49:19
+
+Title: [H] [Part 74] Wave Defense Speedrun | Taking a break, messing around and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 577 seconds
+Created at: 2021-07-10 01:45:19
+
+Title: [H] [Part 73] [Run 34] Wave Defense Speedrun | Let's see how well robo ports do again, for real this time | Still Rip
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4294 seconds
+Created at: 2021-07-10 01:38:41
+
+Title: [H] [Part 72] Wave Defense Speedrun | Review, getting a better idea for how much space i need (hopefully) and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 368 seconds
+Created at: 2021-07-10 01:34:51
+
+Title: [H] [Part 71] [Run 33] Wave Defense Speedrun | Let's see how well robo ports do again | Oh hi there lake
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1462 seconds
+Created at: 2021-07-10 01:33:00
+
+Title: [H] [Part 70] Wave Defense Speedrun | Review and some discussion/planning and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 556 seconds
+Created at: 2021-07-10 01:30:29
+
+Title: [H] [Part 69] [Run 32] Wave Defense Speedrun | Let's see how well robo ports do | Rip Silo btw
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3090 seconds
+Created at: 2021-07-10 01:28:00
+
+Title: [H] [Part 68] Wave Defense Speedrun | A bit of planning for robo ports and robots then starting a run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 861 seconds
+Created at: 2021-07-10 01:24:41
+
+Title: [H] [Part 1] Phobos | Implementing code => AST => code, so basically a Lua formatter | Streaming because maybe it'll help me focus
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 6744 seconds
+Created at: 2021-07-04 16:48:08
+
+Title: [H] [Part 67] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 156 seconds
+Created at: 2021-06-29 04:02:47
+
+Title: [H] [Part 66] [Run 31] Wave Defense Speedrun | Good map + decent run = PB! Just don't look at RF... and the other mistakes :)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 82
+Length: 3912 seconds
+Created at: 2021-06-29 04:00:21
+
+Title: [H] [Part 65] Wave Defense Speedrun | Review and starting another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 233 seconds
+Created at: 2021-06-29 03:57:18
+
+Title: [H] [Part 64] [Run 30] Wave Defense Speedrun | This is what happens when i mess up artillery
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4302 seconds
+Created at: 2021-06-29 03:56:04
+
+Title: [H] [Part 63] Wave Defense Speedrun | Outro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 71 seconds
+Created at: 2021-06-28 03:39:27
+
+Title: [H] [Part 62] [Run 29] Wave Defense Speedrun | Really good start but then i'm not feeling it with oil. Oh well
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 718 seconds
+Created at: 2021-06-28 03:37:12
+
+Title: [H] [Part 61] Wave Defense Speedrun | Transition
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 183 seconds
+Created at: 2021-06-28 03:34:26
+
+Title: [H] [Part 60] [Run 28] Wave Defense Speedrun | No way i'll PB so i'm just messing around and having fun | RGB items
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 4681 seconds
+Created at: 2021-06-28 03:30:49
+
+Title: [H] [Part 59] Wave Defense Speedrun | Short intro | RGB items
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 105 seconds
+Created at: 2021-06-28 03:28:22
+
+Title: [H] [Part 3] Car Engineer Dev | Finalizing, polishing, testing, releasing. All kinds of stuff
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 7491 seconds
+Created at: 2021-06-28 03:25:12
+
+Title: [H] [Part 2] Car Engineer Dev | Adding health regen, fish healing, repair packs and out of fuel icon | A bit of play testing | Some chatting
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 9
+Length: 14561 seconds
+Created at: 2021-06-16 02:17:18
+
+Title: [H] [Part 1] Car Engineer Dev | Stuck in a car. No wait, you are the car. | Mod for AntiElitz and Nefrums race
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 14799 seconds
+Created at: 2021-06-16 02:11:29
+
+Title: [H] [Part 22] GuiGlue (?) Dev | Uh, where was i? | Changing how states are passed around | First stream with new monitor setup, yay!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8051 seconds
+Created at: 2021-06-16 02:07:42
+
+Title: [H] New monitor setup and music player app!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 317 seconds
+Created at: 2021-06-16 02:00:09
+
+Title: [H] Safe Tiles (?) Dev | Using the new $() with statements and trying to figure tile placement logic out. Note: i'm dumb. It's on the item
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 1561 seconds
+Created at: 2021-06-16 01:57:29
+
+Title: [H] Factorio Lua Preprocessor Dev | Enabling statements in $()
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 13
+Length: 498 seconds
+Created at: 2021-06-16 01:53:22
+
+Title: [H] Safe Tiles (?) Dev | Starting Safe Tiles and working on the preprocessor and other random things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 3972 seconds
+Created at: 2021-06-16 01:49:25
+
+Title: [H] [Part 6] Any% Speedrun | Just hanging out a bit after the race, but my brain is fried
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 464 seconds
+Created at: 2021-06-06 01:21:08
+
+Title: [H] [Part 5] [Run 2] Any% Speedrun | Race | Let's have some fun together!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 44
+Length: 12094 seconds
+Created at: 2021-06-06 01:19:02
+
+Title: [H] [Part 4] Any% Speedrun | Pre Race Intro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1155 seconds
+Created at: 2021-06-06 01:17:38
+
+Title: [H] [Part 3] Any% Speedrun | Recap for First Run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 552 seconds
+Created at: 2021-06-05 14:47:31
+
+Title: [H] [Part 2] [Run 1] Any% Speedrun | Test Run | What even are science packs?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 13703 seconds
+Created at: 2021-06-05 14:45:43
+
+Title: [H] [Part 1] Any% Speedrun | Test Run Intro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 795 seconds
+Created at: 2021-06-05 14:44:14
+
+Title: [H] (Factorio) Lua Preprocessor | Enabling require inside preprocessor statements
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 9626 seconds
+Created at: 2021-05-30 22:03:41
+
+Title: [H] [Part 58] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 26
+Length: 116 seconds
+Created at: 2021-05-30 22:02:45
+
+Title: [H] [Part 57] [Run 27] Wave Defense Speedrun | A decent run with Artillery
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 76
+Length: 3981 seconds
+Created at: 2021-05-30 22:01:40
+
+Title: [H] [Part 56] [Run 26] Wave Defense Speedrun | Messing up Artillery again, reset
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 2229 seconds
+Created at: 2021-05-30 21:56:52
+
+Title: [H] [Part 55] [Run 25] Wave Defense Speedrun | Just chilling
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4389 seconds
+Created at: 2021-05-30 21:53:29
+
+Title: [H] [Part 54] Wave Defense Speedrun | Practicing (Artillery) Mall
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 962 seconds
+Created at: 2021-05-30 21:51:46
+
+Title: [H] [Part 53] [Run 24] Wave Defense Speedrun | First run of the day, reset
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1431 seconds
+Created at: 2021-05-30 21:49:16
+
+Title: [H] [Part 52] Wave Defense Speedrun | Review... or rather just ending
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 91 seconds
+Created at: 2021-05-30 21:04:12
+
+Title: [H] [Part 51] [Run 23] Wave Defense Speedrun | Trying out Artillery | Take 2
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4278 seconds
+Created at: 2021-05-30 21:02:16
+
+Title: [H] [Part 50] Wave Defense Speedrun | Planning some more for Artillery mall
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 863 seconds
+Created at: 2021-05-30 20:59:07
+
+Title: [H] [Part 49] [Run 22] Wave Defense Speedrun | Trying to try out Artillery
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1058 seconds
+Created at: 2021-05-30 20:57:06
+
+Title: [H] [Part 48] Wave Defense Speedrun | Planning mall for Artillery
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 813 seconds
+Created at: 2021-05-30 20:54:14
+
+Title: [H] [Part 47] Wave Defense Speedrun | Investigating the wave spawning algorithm
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2658 seconds
+Created at: 2021-05-30 20:51:47
+
+Title: [H] [Part 46] Wave Defense Speedrun | Review and End
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 343 seconds
+Created at: 2021-05-24 17:18:27
+
+Title: [H] [Part 45] [Run 21] Wave Defense Speedrun | What if instead of sleeping you speedran? (third run, and good run)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 49
+Length: 4046 seconds
+Created at: 2021-05-24 17:12:19
+
+Title: [H] [Part 44] Wave Defense Speedrun | Review and go again
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 384 seconds
+Created at: 2021-05-24 17:09:50
+
+Title: [H] [Part 43] [Run 20] Wave Defense Speedrun | What if instead of sleeping you speedran? (Second run)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4278 seconds
+Created at: 2021-05-24 17:06:54
+
+Title: [H] [Part 42] Wave Defense Speedrun | Absolute tiny break
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 136 seconds
+Created at: 2021-05-24 17:03:35
+
+Title: [H] [Part 41] [Run 19] Wave Defense Speedrun | What if instead of sleeping you speedran?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4544 seconds
+Created at: 2021-05-24 17:01:13
+
+Title: [H] [Part 40] Wave Defense Speedrun | Intro and my thoughts on starting with a save game with the hotbar setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 45
+Length: 695 seconds
+Created at: 2021-05-24 16:56:54
+
+Title: [H] [Part 39] Wave Defense Speedrun | Review
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 194 seconds
+Created at: 2021-05-22 21:14:12
+
+Title: [H] [Part 38] [Run 18] Wave Defense Speedrun | Not quite clean, but clean enough!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 16
+Length: 4154 seconds
+Created at: 2021-05-22 21:11:36
+
+Title: [H] [Part 37] Wave Defense Speedrun | Reviewing and chatting
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 803 seconds
+Created at: 2021-05-22 05:08:04
+
+Title: [H] [Part 36] [Run 17] Wave Defense Speedrun | Don't forget the main goal: Having fun!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4296 seconds
+Created at: 2021-05-22 05:06:24
+
+Title: [H] [Part 35] [Run 16] Wave Defense Speedrun | Biters be speedrunning
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1102 seconds
+Created at: 2021-05-22 05:02:35
+
+Title: [H] [Part 34] Wave Defense Speedrun | Review and or break
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 634 seconds
+Created at: 2021-05-22 04:58:42
+
+Title: [H] [Part 33] [Run 15] Wave Defense Speedrun | Trying to stay silent because of a wound in my mouth
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4268 seconds
+Created at: 2021-05-22 04:55:56
+
+Title: [H] [Part 32] Wave Defense Speedrun | Review
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 487 seconds
+Created at: 2021-05-21 22:20:22
+
+Title: [H] [Part 31] [Run 14] Wave Defense Speedrun | Close to PB, but cleared way too many biters
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 4247 seconds
+Created at: 2021-05-21 22:19:35
+
+Title: [H] [Part 30] Wave Defense Speedrun | Review and setup for another run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 411 seconds
+Created at: 2021-05-21 22:16:14
+
+Title: [H] [Part 29] [Run 13] Wave Defense Speedrun | Trying out disabled item groups and subgroups as well. Don't love it
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4456 seconds
+Created at: 2021-05-21 22:12:36
+
+Title: [H] [Part 28] [Run 12] Wave Defense Speedrun | First legitimate death
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 1718 seconds
+Created at: 2021-05-21 22:09:05
+
+Title: [H] [Part 27] Wave Defense Speedrun | New Plan and Tiny Warmup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 1418 seconds
+Created at: 2021-05-21 22:04:31
+
+Title: [H] [Part 26] Wave Defense Speedrun | Tiny bit of review
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 223 seconds
+Created at: 2021-05-19 23:32:19
+
+Title: [H] [Part 25] [Run 11] Wave Defense Speedrun | Surprisingly fast
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 4229 seconds
+Created at: 2021-05-19 23:31:12
+
+Title: [H] [Part 24] Wave Defense Speedrun | Review, taking a break and and eating
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2686 seconds
+Created at: 2021-05-19 23:28:15
+
+Title: [H] [Part 23] [Run 10] Wave Defense Speedrun | Comparing to the wrong splits and getting confused
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 4761 seconds
+Created at: 2021-05-19 23:26:44
+
+Title: [H] [Part 22] Wave Defense Speedrun | A bit of planning
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2982 seconds
+Created at: 2021-05-19 23:24:34
+
+Title: [H] [Part 21] GuiGlue (?) Dev | big changes, big improvements. Namely default get_children and default struct class_names
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6810 seconds
+Created at: 2021-05-19 00:40:41
+
+Title: [H] [Part 21] Wave Defense Speedrun | An even tiny-ier amount of review
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 183 seconds
+Created at: 2021-05-19 00:38:59
+
+Title: [H] [Part 20] [Run 9] Wave Defense Speedrun | Stressed start, but still good in the end
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 12
+Length: 4801 seconds
+Created at: 2021-05-19 00:36:25
+
+Title: [H] [Part 19] Wave Defense Speedrun | Some warmup, even though i didn't think i was doing a warmup run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 9
+Length: 580 seconds
+Created at: 2021-05-19 00:31:21
+
+Title: [H] [Part 20] GuiGlue (?) Dev | writing a test mod
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3776 seconds
+Created at: 2021-05-19 00:28:14
+
+Title: [H] [Part 19] GuiGlue (?) Dev | writing a test mod
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4472 seconds
+Created at: 2021-05-19 00:27:14
+
+Title: [H] [Part 18] GuiGlue (?) Dev | Removing state controllers and setting up for a test mod | Mute to stay focused
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 9355 seconds
+Created at: 2021-05-15 22:53:25
+
+Title: [H] [Part 2] Trackmania Canyon WTC
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 3723 seconds
+Created at: 2021-05-15 22:51:53
+
+Title: [H] [Part 17] GuiGlue (?) Dev | Dynamic values | Mute
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 11607 seconds
+Created at: 2021-05-15 22:48:27
+
+Title: [H] [Part 16] GuiGlue (?) Dev | gui structure, static and dynamic values, debugging and a short story | Mute cause i'm suddenly very tired
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5681 seconds
+Created at: 2021-05-15 22:27:58
+
+Title: [H] [Part 9] [R 05.1] Chrono Ark | Throw everything at Trisha
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 9355 seconds
+Created at: 2021-05-15 22:21:33
+
+Title: [H] [Part 15] GuiGlue (?) Dev | Setup debug only code
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 1481 seconds
+Created at: 2021-05-15 22:18:01
+
+Title: [H] [Part 14] GuiGlue (?) Dev | Caching add params and setup debug only code
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 2769 seconds
+Created at: 2021-05-15 22:13:37
+
+Title: [H] [Part 18] Wave Defense Speedrun | Tiny review of the previous run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 285 seconds
+Created at: 2021-05-12 00:26:44
+
+Title: [H] [Part 17] [Run 8] Wave Defense Speedrun | Having some fun
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 5200 seconds
+Created at: 2021-05-12 00:25:15
+
+Title: [H] [Part 16] Wave Defense Speedrun | Rerolling and thinking i'm getting the same maps
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 352 seconds
+Created at: 2021-05-12 00:21:33
+
+Title: [H] [Part 15] [Run 7] Wave Defense Speedrun | Unplanned warmup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 830 seconds
+Created at: 2021-05-12 00:19:23
+
+Title: [H] [Part 14] Wave Defense Speedrun | Transitioning to Wave Defense, mostly talking about random things
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 954 seconds
+Created at: 2021-05-12 00:17:54
+
+Title: [H] [Part 13] GuiGlue (?) Dev | Fixing EmmyLua types and redoing the definition of/plan for children and add params
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6277 seconds
+Created at: 2021-05-12 00:12:04
+
+Title: [H] [Part 12] GuiGlue (?) Dev | Making more test gui and finding fundamental problems | Tired, but i wanted to stream the entire dev process
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5816 seconds
+Created at: 2021-05-12 00:03:45
+
+Title: [H] [Part 11] GuiGlue (?) Dev | Fleshing out the system and writing/cleaning up for the final version
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 10452 seconds
+Created at: 2021-05-11 00:50:22
+
+Title: [H] [Part 10] GuiGlue (?) Dev | Adding and improving things here and there | Mute for the first part
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 12153 seconds
+Created at: 2021-05-11 00:48:34
+
+Title: [H] [Part 13] Wave Defense Speedrun | Reviewing the last run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 556 seconds
+Created at: 2021-05-07 23:04:44
+
+Title: [H] [Part 12] [Run 6] Wave Defense Speedrun | Exhausted from programming, but i wanted to do a nice, chill run
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 13
+Length: 5654 seconds
+Created at: 2021-05-07 23:03:01
+
+Title: [H] [Part 11] Wave Defense Speedrun | Setting up splits past mines and doing some math
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3484 seconds
+Created at: 2021-05-07 22:59:00
+
+Title: [H] [Part 9] GuiGlue (?) Dev | Cores and states of children continued madness but with a potential step forward
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 10259 seconds
+Created at: 2021-05-07 22:55:08
+
+Title: [H] [Part 8] GuiGlue (?) Dev | How to get/set cores and states of children (madness)
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3593 seconds
+Created at: 2021-05-07 22:53:18
+
+Title: [H] [Part 6] [Run 3] Wave Defense Speedrun | How much wood could you possibly need?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 783 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 10] Wave Defense Speedrun | Reviewing and talking a bit
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 1643 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 8] Wave Defense Speedrun | Reviewing the last run and planning for the next
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3465 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 7] [Run 4] Wave Defense Speedrun | The first win!
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9803 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 9] [Run 5] Wave Defense Speedrun | Sub 2 hours?
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 25
+Length: 7023 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 5] Wave Defense Speedrun | Planning... think big
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4132 seconds
+Created at: 2021-05-07 01:55:16
+
+Title: [H] [Part 3] Wave Defense Speedrun | Tiny bit of planning in between
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 916 seconds
+Created at: 2021-05-07 01:36:10
+
+Title: [H] [Part 1] Wave Defense Speedrun | Intro
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 591 seconds
+Created at: 2021-05-07 01:36:10
+
+Title: [H] [Part 2] [Run 1] Wave Defense Speedrun | No prep, haven't played in a while, just trying this out because i'm interested in speedrunning
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3524 seconds
+Created at: 2021-05-07 01:36:10
+
+Title: [H] [Part 4] [Run 2] Wave Defense Speedrun
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4110 seconds
+Created at: 2021-05-07 01:36:10
+
+Title: [H] [Part 7] GuiGlue (?) Dev | standard library class children and state controllers
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 18246 seconds
+Created at: 2021-05-07 01:15:03
+
+Title: [H] [Part 6] GuiGlue (?) Dev | standard library overhaul to generate classes from a static table structure defining the gui
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5986 seconds
+Created at: 2021-05-07 01:13:23
+
+Title: [H] A tiny bit of space exploration while taking a brake from GuiGlue (?) Dev. I don't really do much
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2298 seconds
+Created at: 2021-05-03 05:40:36
+
+Title: [H] [Part 5] GuiGlue (?) Dev | States and std-list
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 9812 seconds
+Created at: 2021-05-03 05:36:25
+
+Title: [H] [Part 4] GuiGlue (?) Dev | Continue with std-frame-title-bar | Mute
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 3610 seconds
+Created at: 2021-05-03 05:31:22
+
+Title: [H] [Part 3] GuiGlue (?) Dev | Implement some of std-frame-title-bar, or so, to test the framework
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9587 seconds
+Created at: 2021-05-03 05:27:46
+
+Title: [H] [Part 2] GuiGlue (?) Dev | Refactor old gui lib and add inst cores
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6967 seconds
+Created at: 2021-05-03 05:13:33
+
+Title: [H] [Part 1] GuiGlue (?) Dev | Refactor old gui lib | Mute
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8902 seconds
+Created at: 2021-05-03 05:09:31
+
+Title: [H] Lua preprocessor string interpolation
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4241 seconds
+Created at: 2021-04-17 20:14:23
+
+Title: [H] [Part 8] [R 04.1] Chrono Ark | Final boss and and some talking
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 14
+Length: 3652 seconds
+Created at: 2021-03-17 04:10:48
+
+Title: [H] sumneko.lua plugin dev for factorio
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 6603 seconds
+Created at: 2021-03-08 17:10:34
+
+Title: [H] lua preprocessor dev, lua debugger setup and LuaFileSystem install and setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 20
+Length: 8040 seconds
+Created at: 2021-03-08 17:09:03
+
+Title: [H] [Part 6] Trackmania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2543 seconds
+Created at: 2021-03-08 17:09:03
+
+Title: [H] lua preprocessor dev for factorio
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 7597 seconds
+Created at: 2021-03-05 05:04:00
+
+Title: [H] sumneko.lua plugin dev for factorio || ---@typelist
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 4652 seconds
+Created at: 2021-02-28 01:30:55
+
+Title: [H] [Part 2] Nullius Modded Run | More Bricks, More Iron, Mall Planning
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6254 seconds
+Created at: 2021-01-26 04:27:13
+
+Title: [H] [Part 7] [R 03.4] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 7108 seconds
+Created at: 2021-01-26 04:27:13
+
+Title: [H] [Part 5] Trackmania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2813 seconds
+Created at: 2021-01-26 04:27:13
+
+Title: [H] Just hanging out, chatting about quite literally random things, including some factorio talk
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 2175 seconds
+Created at: 2021-01-25 06:02:03
+
+Title: [H] [Part 1] Nullius Modded Run | Beep Boop, I am an Android
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 12586 seconds
+Created at: 2021-01-25 06:02:03
+
+Title: [H] [Part 4] One Life Ori and the Blind Forest
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2242 seconds
+Created at: 2021-01-25 06:02:03
+
+Title: [H] Some "random" gui modding | mute
+Description: the rest of the vod got muted, i didn't know beforeheand, so i removed that part now
+Broadcast type: highlight
+Viewable: public
+Views: 12
+Length: 6429 seconds
+Created at: 2021-01-21 05:03:20
+
+Title: [H] [Part 6] [R 03.3] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 8
+Length: 6933 seconds
+Created at: 2021-01-14 03:38:47
+
+Title: [H] [Part 5] [R 03.2] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 9280 seconds
+Created at: 2021-01-12 05:47:01
+
+Title: [H] [Part 4] TrackMania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 715 seconds
+Created at: 2021-01-10 13:35:31
+
+Title: [H] [Part 17] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 6440 seconds
+Created at: 2021-01-10 13:35:31
+
+Title: [H] [Part 4] [R 03.1] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 3877 seconds
+Created at: 2021-01-10 13:35:31
+
+Title: [H] [Part 8] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 8009 seconds
+Created at: 2021-01-05 22:33:38
+
+Title: [H] [Part 3] TrackMania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 2637 seconds
+Created at: 2021-01-05 22:33:38
+
+Title: [H] [Part 3] [R 02.2] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 3087 seconds
+Created at: 2021-01-05 22:33:38
+
+Title: [H] [Part 2] [R 02.1] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 13230 seconds
+Created at: 2021-01-05 04:09:12
+
+Title: [H] OBS Streaming Setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 4
+Length: 220 seconds
+Created at: 2021-01-05 03:50:02
+
+Title: [H] [Part 2] Anno 2070
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 4663 seconds
+Created at: 2021-01-03 04:12:57
+
+Title: [H] [Part 16] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 8098 seconds
+Created at: 2021-01-02 03:10:19
+
+Title: [H] [Part 1] Anno 2070
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 11
+Length: 12043 seconds
+Created at: 2021-01-02 03:10:19
+
+Title: [H] [Part 7] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3695 seconds
+Created at: 2020-12-31 01:04:08
+
+Title: [H] [Part 3] One Life Ori and the Blind Forest
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 4589 seconds
+Created at: 2020-12-31 01:04:08
+
+Title: [H] [Part 2] One Life Ori and the Blind Forest
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8138 seconds
+Created at: 2020-12-30 04:02:00
+
+Title: [H] [Part 6] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5703 seconds
+Created at: 2020-12-30 04:02:00
+
+Title: [H] [Part 1] [R 01] Chrono Ark
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 5
+Length: 10754 seconds
+Created at: 2020-12-29 03:23:26
+
+Title: [H] [Part 5] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 9220 seconds
+Created at: 2020-12-29 03:23:26
+
+Title: [H] [Part 4] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 6876 seconds
+Created at: 2020-12-28 16:48:34
+
+Title: [H] [Part 3] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 682 seconds
+Created at: 2020-12-28 16:35:33
+
+Title: [H] [Part 4] Baba Is You
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 3351 seconds
+Created at: 2020-12-28 04:32:58
+
+Title: [H] [Part 2] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 6326 seconds
+Created at: 2020-12-28 04:32:58
+
+Title: [H] [Part 3] Baba Is You
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5602 seconds
+Created at: 2020-12-27 03:05:43
+
+Title: [H] [Part 2] TrackMania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 2332 seconds
+Created at: 2020-12-27 03:05:43
+
+Title: [H] [Part 1] Radar Equipment Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 5426 seconds
+Created at: 2020-12-27 03:05:43
+
+Title: [H] [Part 2] Baba Is You
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 7194 seconds
+Created at: 2020-12-27 02:56:51
+
+Title: [H] [Part 1] One Life Ori and the Blind Forest
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 1596 seconds
+Created at: 2020-12-27 02:56:51
+
+Title: [H] [Part 1] Baba Is You
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 9545 seconds
+Created at: 2020-12-27 02:48:34
+
+Title: [H] make cross mod require work with sumneko.lua (vscode) | Factorio Modding Dev Env Setup
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 10
+Length: 6955 seconds
+Created at: 2020-12-27 02:46:45
+
+Title: [H] [Part 1] TrackMania
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 3
+Length: 1663 seconds
+Created at: 2020-12-27 02:43:04
+
+Title: [H] CSExe Dev | compiling and running C# .NET Core at runtime
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 6186 seconds
+Created at: 2020-12-27 02:43:04
+
+Title: [H] [Part 1] TrackMania Canyon WTC
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 10
+Length: 3216 seconds
+Created at: 2020-12-27 02:43:04
+
+Title: [H] [Part 15] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 2071 seconds
+Created at: 2020-12-24 00:03:42
+
+Title: [H] [Part 14] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 4267 seconds
+Created at: 2020-12-09 13:32:38
+
+Title: [H] [Part 13] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 14437 seconds
+Created at: 2020-12-07 02:33:09
+
+Title: [H] [Part 12] gui-plus framework dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 10143 seconds
+Created at: 2020-12-07 02:31:10
+
+Title: [H] [Part 11] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 7489 seconds
+Created at: 2020-12-07 02:24:47
+
+Title: [H] [Part 10] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 3570 seconds
+Created at: 2020-12-07 02:20:36
+
+Title: [H] [Part 9] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 7035 seconds
+Created at: 2020-12-07 02:16:26
+
+Title: [H] [Part 8] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5000 seconds
+Created at: 2020-12-07 02:13:55
+
+Title: [H] [Part 7] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 581 seconds
+Created at: 2020-12-07 02:06:33
+
+Title: [H] [Part 4] Satisfactory
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 9516 seconds
+Created at: 2020-12-07 02:01:36
+
+Title: [H] [Part 6] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5376 seconds
+Created at: 2020-12-07 01:56:46
+
+Title: [H] [Part 3] Satisfactory
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5010 seconds
+Created at: 2020-12-07 01:49:10
+
+Title: [H] [Part 5] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 1
+Length: 2466 seconds
+Created at: 2020-12-07 01:46:52
+
+Title: [H] [Part 4] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 2333 seconds
+Created at: 2020-12-07 01:44:39
+
+Title: [H] [Part 2] Satisfactory
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 2
+Length: 9811 seconds
+Created at: 2020-12-07 01:38:53
+
+Title: [H] [Part 3] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 5807 seconds
+Created at: 2020-12-07 01:28:17
+
+Title: [H] [Part 2] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 0
+Length: 8991 seconds
+Created at: 2020-12-07 01:23:42
+
+Title: [H] [Part 1] Satisfactory
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 6
+Length: 7091 seconds
+Created at: 2020-12-06 05:33:58
+
+Title: [H] [Part 1] Gui Plus Framework Dev
+Description:
+Broadcast type: highlight
+Viewable: public
+Views: 7
+Length: 7606 seconds
+Created at: 2020-12-06 05:33:48
