@@ -1,15 +1,72 @@
 
+local util = require("util")
 local linq = require("linq")
 local config = require("config")
 local Path = require("path")
 local arg_parser = require("arg_parser")
+local shell_util = require("shell_util")
+local lfs = require("lfs")--[[@as LFS]]
+local io_util = require("io_util")
+local json = require("json_util")
+
+---@class Args
+---@field download_video boolean
+---@field download_chat boolean
+---@field time_limit number
+---@field help boolean
+
+-- ---@field no_warn_on_missing_metadata boolean
+-- ---@field no_warn_on_missing_chat boolean
 
 local args = arg_parser.parse_and_print_on_error_or_help({...}, {
   options = {
-
+    -- {
+    --   field = "no_warn_on_missing_metadata",
+    --   long = "no-warn-on-missing-metadata",
+    --   description = "If a video exists without an associated metadata file, the program \n\z
+    --     generates a warning because that video may not have finished \n\z
+    --     downloading correctly. By ignoring this warning it will \n\z
+    --     simply generate the missing metadata file.",
+    --   flag = true,
+    -- },
+    -- {
+    --   field = "no_warn_on_missing_chat",
+    --   long = "no-warn-on-missing-chat",
+    --   description = "Same as --no-warn-on-missing-metadata, except \n\z
+    --     that when the file is missing it will start a download for \n\z
+    --     the video's chat history.",
+    --   flag = true,
+    -- },
+    {
+      field = "download_video",
+      long = "download-video",
+      description = "Download the highest quality video and audio available.",
+      flag = true,
+    },
+    {
+      field = "download_chat",
+      long = "download-chat",
+      description = "Download chat history into a json file. The TwitchDownloader CLI and \n\z
+        GUI can render a video from this, which is a separate video from the \n\z
+        main one, so that in particular is only useful for you locally.",
+      flag = true,
+    },
+    {
+      field = "time_limit",
+      long = "time-limit",
+      description = "Automatically stop once more this amount of minutes have passed. \n\z
+        Zero or less means no limit. Do note however that when closing \n\z
+        or killing the process while it is running will most likely result in \n\z
+        unfinished downloads in the output directory. Make sure to delete \n\z
+        those files.",
+      type = "number",
+      optional = true,
+      default_value = 0,
+      single_param = true,
+    },
   },
-})
-if not args then return end
+})--[[@as Args]]
+if not args or args.help then return end
 
 local urls_file = config.urls_list
 local details_file = config.details_list
@@ -20,20 +77,10 @@ local mega = kilo * 1000
 local giga = mega * 1000
 local terra = giga * 1000
 
----@param name string
----@return string
-local function read_file(name)
-  local file = io.open(name, "r")
-  if not file then error("Could not open file "..name) end
-  local content = file:read("*a")
-  file:close()
-  return content
-end
-
-local urls_str = read_file(urls_file)
-local details_str = read_file(details_file)
+local urls_str = io_util.read_file(urls_file)
+local details_str = io_util.read_file(details_file)
 local collection_strs = linq(collection_files)
-  :select(function(value, i) return read_file(value) end)
+  :select(function(value, i) return io_util.read_file(value) end)
   :to_array()
 
 local urls = {}
@@ -164,7 +211,6 @@ do
     }
     details[index] = detail
     detail.bytes = detail.length * estimated_average_bytes_per_second
-    -- print(string.format("%.3f  %s", detail.length / 60 / 60, detail.title))
   end
 end
 
@@ -198,8 +244,6 @@ do
   if invalid then os.exit(1) end
 end
 
-local b
-
 -- print("duplicate titles:")
 -- for group in linq(details)
 --   :group_by(function(value, index) return value.title end)
@@ -211,22 +255,144 @@ local b
 --   end
 -- end
 
--- print("downloading 828418665")
--- local command = string.format(
---   "%s videodownload --id %d -o %s %s",
---   config.downloader_cli,
---   828418665,
---   (Path.new(config.output_directory) / "828418665.mp4"):str(),
---   config.downloader_cli_args
--- )
--- print(command)
--- local success = os.execute(command)
--- print() -- TwitchDownloaderCLI does not write a trailing newline to stdout before existing
--- print("result: ", tostring(success))
--- if not success then
---   print("fail")
---   os.exit(1)
--- end
--- print("success")
+---@param detail Detail
+local function get_video_filename(detail)
+  return string.format("%d  %s  %s.mp4", detail.id, detail.created_at, detail.title)
+end
 
-local b
+---@param detail Detail
+local function get_metadata_filename(detail)
+  return string.format("%d  %s  metadata.json", detail.id, detail.created_at, detail.title)
+end
+
+---@param detail Detail
+local function get_chat_filename(detail)
+  return string.format("%d  %s  chat.json", detail.id, detail.created_at, detail.title)
+end
+
+---@param detail Detail
+local function download_video(detail)
+  local filename = get_video_filename(detail)
+  print("downloading "..filename)
+  local command = string.format(
+    "%s videodownload --id %d -o %s %s",
+    config.downloader_cli,
+    detail.id,
+    shell_util.escape_arg((Path.new(config.output_directory) / filename):str()),
+    config.downloader_cli_args
+  )
+  print(command)
+  local success = os.execute(command)
+  print() -- TwitchDownloaderCLI does not write a trailing newline to stdout before existing
+  if not success then os.exit(1) end
+end
+
+---@param detail Detail
+local function download_chat(detail)
+  local filename = get_chat_filename(detail)
+  print("downloading "..filename)
+  local command = string.format(
+    "%s chatdownload --embed-images --id %d -o %s %s",
+    config.downloader_cli,
+    detail.id,
+    shell_util.escape_arg((Path.new(config.output_directory) / filename):str()),
+    config.downloader_cli_args
+  )
+  print(command)
+  local success = os.execute(command)
+  print() -- TwitchDownloaderCLI does not write a trailing newline to stdout before existing
+  if not success then os.exit(1) end
+end
+
+---@param detail Detail
+local function get_metadata_file_contents(detail)
+  local metadata_json = {
+    title = detail.title,
+    description = detail.description,
+    broadcast_type = detail.broadcast_type,
+    viewable = detail.viewable,
+    views = detail.views,
+    seconds = detail.length,
+    created_at = detail.created_at,
+    url = detail.url,
+    id = detail.id,
+    collection_index = detail.collection_entries[1] and detail.collection_entries[1].index or -1,
+    collection_title = detail.collection_entries[1] and detail.collection_entries[1].collection_title or "",
+  }
+  return json.to_json(metadata_json, {indent = "  "})
+end
+
+---@param detail Detail
+local function process_downloads(detail)
+  local output_path = Path.new(config.output_directory)
+
+  local metadata_path = output_path / get_metadata_filename(detail)
+  if not metadata_path:exists() then
+    io_util.write_file(
+      metadata_path,
+      get_metadata_file_contents(detail)
+    )
+  end
+
+  local video_path = output_path / get_video_filename(detail)
+  if args.download_video and not video_path:exists() then
+    download_video(detail)
+  end
+
+  local chat_path = output_path / get_chat_filename(detail)
+  if args.download_chat and not chat_path:exists() then
+    download_chat(detail)
+  end
+end
+
+-- local missing_files = false
+
+-- ---@param detail Detail
+-- ---@param bypass_warning_checks boolean?
+-- local function add_extra_info_for_video_file(detail, bypass_warning_checks)
+--   local output_path = Path.new(config.output_directory)
+--   if not (output_path / get_video_filename(detail)):exists() then return end
+
+--   local metadata_path = output_path / get_metadata_filename(detail)
+--   if not metadata_path:exists() then
+--     if not bypass_warning_checks and not args.no_warn_on_missing_metadata then
+--       io.stderr:write("Missing metadata file for the video file '"..metadata_path:str()
+--         .."', make sure the video finished downloading successfully. If it did then \z
+--         use the --no-warn-on-missing-metadata option to make it generate a new \z
+--         metadata file instead of aborting."):flush()
+--       missing_files = true
+--     end
+--     io_util.write_file(
+--       metadata_path,
+--       get_metadata_file_contents(detail)
+--     )
+--   end
+
+--   local chat_path = output_path / get_chat_filename(detail)
+--   if not chat_path:exists() then
+--     if not bypass_warning_checks and not args.no_warn_on_missing_chat then
+--       io.stderr:write("Missing chat file for the video file '"..chat_path:str()
+--         .."', make sure the video finished downloading successfully. If it did then \z
+--         use the --no-warn-on-missing-chat option to make it download chat history \z
+--         instead of aborting."):flush()
+--       missing_files = true
+--     end
+--     download_chat(detail)
+--   end
+-- end
+
+-- for _, detail in ipairs(details) do
+--   add_extra_info_for_video_file(detail)
+-- end
+
+-- if missing_files then
+--   util.abort()
+-- end
+
+local start_time = os.time()
+for detail in linq(details):reverse():iterate() do
+  process_downloads(detail)
+  if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
+    break
+  end
+end

@@ -6,7 +6,7 @@ return {
   --
   -- On Windows you'd follow these steps, except for step 5: https://github.com/lay295/TwitchDownloader?tab=readme-ov-file#windows---getting-started
   --   Then use this: "C:\folder\containing\TwitchDownloaderCLI\TwitchDownloaderCLI.exe"
-  downloader_cli = "TwitchDownloaderCLI", -- See comments above
+  downloader_cli = "TwitchDownloaderCLI", -- This path should not contain any white spaces, or otherwise weird characters.
   downloader_cli_args = "--temp-path /mnt/big",
   urls_list = "configuration/vods_filtered_2025-02-19_20-39-36.csv", -- Use forward slashes.
   details_list = "configuration/details.txt", -- Use forward slashes.
@@ -37,5 +37,5 @@ return {
     "configuration/collections/Wave Defense Speedrun.txt",
   },
   -- output_directory = "downloads",
-  output_directory = "/mnt/big/temp",
+  output_directory = "/run/media/jmpc4/huge/TwitchVods/JanSharp",
 }
