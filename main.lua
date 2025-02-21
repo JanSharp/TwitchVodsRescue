@@ -16,6 +16,9 @@ local json = require("json_util")
 ---@field collection string
 ---@field non_collections boolean
 ---@field list_collections boolean
+---@field output_dir string
+---@field config_dir string
+---@field temp_dir string
 ---@field dry_run boolean
 ---@field help boolean
 
@@ -27,17 +30,17 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
     -- {
     --   field = "no_warn_on_missing_metadata",
     --   long = "no-warn-on-missing-metadata",
-    --   description = "If a video exists without an associated metadata file, the program \n\z
-    --     generates a warning because that video may not have finished \n\z
-    --     downloading correctly. By ignoring this warning it will \n\z
+    --   description = "If a video exists without an associated metadata file, the program\n\z
+    --     generates a warning because that video may not have finished\n\z
+    --     downloading correctly. By ignoring this warning it will\n\z
     --     simply generate the missing metadata file.",
     --   flag = true,
     -- },
     -- {
     --   field = "no_warn_on_missing_chat",
     --   long = "no-warn-on-missing-chat",
-    --   description = "Same as --no-warn-on-missing-metadata, except \n\z
-    --     that when the file is missing it will start a download for \n\z
+    --   description = "Same as --no-warn-on-missing-metadata, except\n\z
+    --     that when the file is missing it will start a download for\n\z
     --     the video's chat history.",
     --   flag = true,
     -- },
@@ -50,18 +53,18 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
     {
       field = "download_chat",
       long = "download-chat",
-      description = "Download chat history into a json file. The TwitchDownloader CLI and \n\z
-        GUI can render a video from this, which is a separate video from the \n\z
+      description = "Download chat history into a json file. The TwitchDownloader CLI and\n\z
+        GUI can render a video from this, which is a separate video from the\n\z
         main one, so that in particular is only useful for you locally.",
       flag = true,
     },
     {
       field = "time_limit",
       long = "time-limit",
-      description = "Automatically stop once more this amount of minutes have passed. \n\z
-        Zero or less means no limit. Do note however that when closing \n\z
-        or killing the process while it is running will most likely result in \n\z
-        unfinished downloads in the output directory. Make sure to delete \n\z
+      description = "Automatically stop once more this amount of minutes have passed.\n\z
+        Zero or less means no limit. Do note however that when closing\n\z
+        or killing the process while it is running will most likely result in\n\z
+        unfinished downloads in the output directory. Make sure to delete\n\z
         those files.",
       type = "number",
       optional = true,
@@ -89,9 +92,36 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       flag = true,
     },
     {
+      field = "output_dir",
+      long = "output-dir",
+      short = "o",
+      description = "The directory to save downloaded files to. Use forward slashes.",
+      default_value = "downloads",
+      type = "string",
+      single_param = true,
+    },
+    {
+      field = "config_dir",
+      long = "config-dir",
+      short = "c",
+      description = "The directory containing details.txt, one urls csv file, and\n\z
+        optionally a 'collections' folder.",
+      default_value = "configuration",
+      type = "string",
+      single_param = true,
+    },
+    {
+      field = "temp_dir",
+      long = "temp-dir",
+      description = "The temp directory the TwitchDownloaderCLI uses.",
+      type = "string",
+      optional = true,
+      single_param = true,
+    },
+    {
       field = "dry_run",
       long = "dry-run",
-      description = "Tries to give an idea of what the current command would do, without \n\z
+      description = "Tries to give an idea of what the current command would do, without\n\z
         actually downloading anything or writing any files.",
       flag = true;
     },
@@ -99,14 +129,30 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
 })--[[@as Args]]
 if not args or args.help then return end
 
-local urls_file = config.urls_list
-local details_file = config.details_list
-local collection_files = config.collections
+local config_path = Path.new(args.config_dir)
+if not config_path:exists() then
+  util.abort("No such config directory "..config_path:str())
+end
 
-local kilo = 1000
-local mega = kilo * 1000
-local giga = mega * 1000
-local terra = giga * 1000
+local details_file = Path.new(args.config_dir) / "details.txt"
+
+local urls_file
+for entry in Path.new(args.config_dir):enumerate() do
+  if (config_path / entry):attr("mode") == "file" and Path.new(entry):extension() == ".csv" then
+    if urls_file then
+      util.abort("There must only be one csv file in the config directory "..config_path:str())
+    end
+    urls_file = config_path / entry
+  end
+end
+
+local collection_files = {}
+
+if (config_path / "collections"):exists() then
+  for entry in (config_path / "collections"):enumerate() do
+    collection_files[#collection_files+1] = config_path / "collections" / entry
+  end
+end
 
 if args.list_collections then
   for _, collection in ipairs(collection_files) do
@@ -328,8 +374,8 @@ end
 ---@param detail Detail
 local function get_output_path(detail)
   return detail.collection_entries[1]
-    and (Path.new(config.output_directory) / detail.collection_entries[1])
-    or Path.new(config.output_directory)
+    and (Path.new(args.output_dir) / detail.collection_entries[1].collection_title)
+    or Path.new(args.output_dir)
 end
 
 ---@param detail Detail
@@ -337,11 +383,11 @@ local function download_video(detail)
   local filename = get_video_filename(detail)
   print("downloading "..filename)
   local command = string.format(
-    "%s videodownload --id %d -o %s %s",
+    "%s videodownload --id %d -o %s%s",
     config.downloader_cli,
     detail.id,
     shell_util.escape_arg((get_output_path(detail) / filename):str()),
-    config.downloader_cli_args
+    args.temp_dir and (" --temp-path "..shell_util.escape_arg(args.temp_dir)) or ""
   )
   print(command)
   local success = os.execute(command)
@@ -354,11 +400,11 @@ local function download_chat(detail)
   local filename = get_chat_filename(detail)
   print("downloading "..filename)
   local command = string.format(
-    "%s chatdownload --embed-images --id %d -o %s %s",
+    "%s chatdownload --embed-images --id %d -o %s%s",
     config.downloader_cli,
     detail.id,
     shell_util.escape_arg((get_output_path(detail) / filename):str()),
-    config.downloader_cli_args
+    args.temp_dir and (" --temp-path "..shell_util.escape_arg(args.temp_dir)) or ""
   )
   print(command)
   local success = os.execute(command)
@@ -392,9 +438,6 @@ local function process_downloads(detail)
   end
 
   local output_path = get_output_path(detail)
-  if detail.collection_entries[1] then
-    output_path = output_path / detail.collection_entries[1].collection_title
-  end
 
   local metadata_path = output_path / get_metadata_filename(detail)
   if not metadata_path:exists() then

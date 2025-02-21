@@ -1,3 +1,4 @@
 
 /downloads/**
-configuration/**/*oblivious*.*
+/configuration/**
+!/configuration/readme.md
