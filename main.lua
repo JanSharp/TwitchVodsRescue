@@ -13,6 +13,9 @@ local json = require("json_util")
 ---@field download_video boolean
 ---@field download_chat boolean
 ---@field time_limit number
+---@field collection string
+---@field non_collections boolean
+---@field list_collections boolean
 ---@field help boolean
 
 -- ---@field no_warn_on_missing_metadata boolean
@@ -64,6 +67,26 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       default_value = 0,
       single_param = true,
     },
+    {
+      field = "collection",
+      long = "collection",
+      description = "Only process videos in the given collection.",
+      type = "string",
+      optional = true,
+      single_param = true,
+    },
+    {
+      field = "non_collections",
+      long = "non-collections",
+      description = "Only process videos which are not part of a collection.",
+      flag = true,
+    },
+    {
+      field = "list_collections",
+      long = "list-collections",
+      description = "List all names of collections",
+      flag = true,
+    },
   },
 })--[[@as Args]]
 if not args or args.help then return end
@@ -76,6 +99,13 @@ local kilo = 1000
 local mega = kilo * 1000
 local giga = mega * 1000
 local terra = giga * 1000
+
+if args.list_collections then
+  for _, collection in ipairs(collection_files) do
+    print(Path.new(collection):filename())
+  end
+  return
+end
 
 local urls_str = io_util.read_file(urls_file)
 local details_str = io_util.read_file(details_file)
@@ -416,9 +446,23 @@ end
 --   util.abort()
 -- end
 
+---@param detail Detail
+local function should_process(detail)
+  if args.non_collections then
+    return not detail.collection_entries[1]
+  end
+  if args.collection then
+    return detail.collection_entries[1]
+      and detail.collection_entries[1].collection_title == args.collection
+  end
+  return true
+end
+
 local start_time = os.time()
 for detail in linq(details):reverse():iterate() do
-  process_downloads(detail)
+  if should_process(detail) then
+    process_downloads(detail)
+  end
   if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
     break
   end
