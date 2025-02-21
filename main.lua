@@ -13,7 +13,7 @@ local json = require("json_util")
 ---@field download_video boolean
 ---@field download_chat boolean
 ---@field time_limit number
----@field collection string
+---@field collections string[]
 ---@field non_collections boolean
 ---@field list_collections boolean
 ---@field output_dir string
@@ -72,12 +72,12 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       single_param = true,
     },
     {
-      field = "collection",
-      long = "collection",
-      description = "Only process videos in the given collection.",
+      field = "collections",
+      long = "collections",
+      description = "Only process videos in the given collections.",
       type = "string",
       optional = true,
-      single_param = true,
+      min_params = 1,
     },
     {
       field = "non_collections",
@@ -507,9 +507,9 @@ local function should_process(detail)
   if args.non_collections then
     return not detail.collection_entries[1]
   end
-  if args.collection then
+  if args.collections then
     return detail.collection_entries[1]
-      and detail.collection_entries[1].collection_title == args.collection
+      and linq(args.collections):contains(detail.collection_entries[1].collection_title)
   end
   return true
 end
