@@ -16,6 +16,7 @@ local json = require("json_util")
 ---@field collection string
 ---@field non_collections boolean
 ---@field list_collections boolean
+---@field dry_run boolean
 ---@field help boolean
 
 -- ---@field no_warn_on_missing_metadata boolean
@@ -86,6 +87,13 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       long = "list-collections",
       description = "List all names of collections",
       flag = true,
+    },
+    {
+      field = "dry_run",
+      long = "dry-run",
+      description = "Tries to give an idea of what the current command would do, without \n\z
+        actually downloading anything or writing any files.",
+      flag = true;
     },
   },
 })--[[@as Args]]
@@ -378,6 +386,11 @@ end
 
 ---@param detail Detail
 local function process_downloads(detail)
+  if args.dry_run then
+    print(detail.title)
+    return
+  end
+
   local output_path = get_output_path(detail)
   if detail.collection_entries[1] then
     output_path = output_path / detail.collection_entries[1].collection_title
