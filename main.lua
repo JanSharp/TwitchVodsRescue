@@ -255,6 +255,7 @@ end
 ---@field id integer
 ---@field size integer
 ---@field collection_entries CollectionEntry[]
+---@field collection_entries_by_collection_title table<string, CollectionEntry>
 
 ---@type Detail[]
 local details = {}
@@ -292,6 +293,7 @@ do
       url = urls[index],
       id = tonumber(urls[index]:match("%d+$")),
       collection_entries = {},
+      collection_entries_by_collection_title = {},
     }
     details[index] = detail
     detail.bytes = detail.length * estimated_average_bytes_per_second
@@ -308,25 +310,28 @@ for _, collection in ipairs(collections) do
   do
     pair.entry.detail = pair.detail
     pair.detail.collection_entries[#pair.detail.collection_entries+1] = pair.entry
+    pair.detail.collection_entries_by_collection_title[pair.entry.collection_title] = pair.entry
   end
 end
 
-do
-  local invalid = false
-  for _, detail in ipairs(details) do
-    if detail.collection_entries[2] then
-      io.stderr:write(string.format("The '%s' video is in multiple collections. \z
-        For simplicity of this script, as well as the fact that youtube can only have each video in one \z
-        official playlist, this is not supported.\n\z
-        Collections:\n%s\n",
-        detail.title,
-        table.concat(linq(detail.collection_entries):select(function(e) return e.collection_title end):to_array(), "\n"))
-      ):flush()
-      invalid = true
-    end
-  end
-  if invalid then os.exit(1) end
-end
+-- TODO: ensure every collection entry gets matched with a detail
+
+-- do
+--   local invalid = false
+--   for _, detail in ipairs(details) do
+--     if detail.collection_entries[2] then
+--       io.stderr:write(string.format("The '%s' video is in multiple collections. \z
+--         For simplicity of this script, as well as the fact that youtube can only have each video in one \z
+--         official playlist, this is not supported.\n\z
+--         Collections:\n%s\n",
+--         detail.title,
+--         table.concat(linq(detail.collection_entries):select(function(e) return e.collection_title end):to_array(), "\n"))
+--       ):flush()
+--       invalid = true
+--     end
+--   end
+--   if invalid then os.exit(1) end
+-- end
 
 -- print("duplicate titles:")
 -- for group in linq(details)
@@ -340,53 +345,82 @@ end
 -- end
 
 ---@param detail Detail
-local function add_collection_index_prefix(detail, filename)
+---@param collection_title string?
+local function get_collection_index(detail, collection_title)
   if not detail.collection_entries[1] then
-    return filename
+    return -1
   end
-  return string.format("%03d  %s", detail.collection_entries[1].index, filename)
+  if collection_title then
+    local entry = util.debug_assert(detail.collection_entries_by_collection_title[collection_title])
+    return entry.index
+  end
+  return detail.collection_entries[1].index
 end
 
 ---@param detail Detail
-local function get_video_filename(detail)
+---@param collection_title string?
+---@param filename string
+local function add_collection_index_prefix(detail, collection_title, filename)
+  if not detail.collection_entries[1] then
+    return filename
+  end
+  return string.format("%03d  %s", get_collection_index(detail, collection_title), filename)
+end
+
+---@param detail Detail
+---@param collection_title string?
+local function get_video_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
+    collection_title,
     string.format("%s  %s.mp4", detail.created_at, detail.title)
   )
 end
 
 ---@param detail Detail
-local function get_metadata_filename(detail)
+---@param collection_title string?
+local function is_external(detail, collection_title)
+  return collection_title and detail.collection_entries[1].collection_title ~= collection_title
+end
+
+---@param detail Detail
+---@param collection_title string?
+local function get_metadata_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
-    string.format("%s  metadata.json", detail.created_at)
+    collection_title,
+    string.format("%s  metadata%s.json", detail.created_at, is_external(detail, collection_title) and " (external)" or "")
   )
 end
 
 ---@param detail Detail
-local function get_chat_filename(detail)
+---@param collection_title string?
+local function get_chat_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
+    collection_title,
     string.format("%s  chat.json", detail.created_at)
   )
 end
 
 ---@param detail Detail
-local function get_output_path(detail)
+---@param collection_title string?
+local function get_output_path(detail, collection_title)
   return detail.collection_entries[1]
-    and (Path.new(args.output_dir) / detail.collection_entries[1].collection_title)
+    and (Path.new(args.output_dir) / (collection_title or detail.collection_entries[1].collection_title))
     or Path.new(args.output_dir)
 end
 
 ---@param detail Detail
-local function download_video(detail)
-  local filename = get_video_filename(detail)
+---@param collection_title string?
+local function download_video(detail, collection_title)
+  local filename = get_video_filename(detail, collection_title)
   print("downloading "..filename)
   local command = string.format(
     "%s videodownload --id %d -o %s%s",
     config.downloader_cli,
     detail.id,
-    shell_util.escape_arg((get_output_path(detail) / filename):str()),
+    shell_util.escape_arg((get_output_path(detail, collection_title) / filename):str()),
     args.temp_dir and (" --temp-path "..shell_util.escape_arg(args.temp_dir)) or ""
   )
   print(command)
@@ -396,14 +430,15 @@ local function download_video(detail)
 end
 
 ---@param detail Detail
-local function download_chat(detail)
-  local filename = get_chat_filename(detail)
+---@param collection_title string?
+local function download_chat(detail, collection_title)
+  local filename = get_chat_filename(detail, collection_title)
   print("downloading "..filename)
   local command = string.format(
     "%s chatdownload --embed-images --id %d -o %s%s",
     config.downloader_cli,
     detail.id,
-    shell_util.escape_arg((get_output_path(detail) / filename):str()),
+    shell_util.escape_arg((get_output_path(detail, collection_title) / filename):str()),
     args.temp_dir and (" --temp-path "..shell_util.escape_arg(args.temp_dir)) or ""
   )
   print(command)
@@ -413,7 +448,8 @@ local function download_chat(detail)
 end
 
 ---@param detail Detail
-local function get_metadata_file_contents(detail)
+---@param collection_title string?
+local function get_metadata_file_contents(detail, collection_title)
   local metadata_json = {
     title = detail.title,
     description = detail.description,
@@ -424,28 +460,34 @@ local function get_metadata_file_contents(detail)
     created_at = detail.created_at,
     url = detail.url,
     id = detail.id,
-    collection_index = detail.collection_entries[1] and detail.collection_entries[1].index or -1,
-    collection_title = detail.collection_entries[1] and detail.collection_entries[1].collection_title or "",
+    collection_index = get_collection_index(detail, collection_title),
+    collection_title = collection_title
+      or detail.collection_entries[1] and detail.collection_entries[1].collection_title
+      or "",
+    collection_title_external = is_external(detail, collection_title) and detail.collection_entries[1] or "",
   }
   return json.to_json(metadata_json, {indent = "  "})
 end
 
 ---@param detail Detail
-local function process_downloads(detail)
+---@param collection_title string?
+local function process_downloads(detail, collection_title)
   if args.dry_run then
     print(detail.title)
     return
   end
 
-  local output_path = get_output_path(detail)
+  local output_path = get_output_path(detail, collection_title)
 
-  local metadata_path = output_path / get_metadata_filename(detail)
+  local metadata_path = output_path / get_metadata_filename(detail, collection_title)
   if not metadata_path:exists() then
     io_util.write_file(
       metadata_path,
       get_metadata_file_contents(detail)
     )
   end
+
+  if is_external(detail, collection_title) then return end
 
   local video_path = output_path / get_video_filename(detail)
   if args.download_video and not video_path:exists() then
@@ -509,7 +551,9 @@ local function should_process(detail)
   end
   if args.collections then
     return detail.collection_entries[1]
-      and linq(args.collections):contains(detail.collection_entries[1].collection_title)
+      and linq(args.collections)
+        :intersect(linq(detail.collection_entries):select(function(e) return e.collection_title end))
+        :any()
   end
   return true
 end
@@ -517,7 +561,13 @@ end
 local start_time = os.time()
 for detail in linq(details):reverse():iterate() do
   if should_process(detail) then
-    process_downloads(detail)
+    if args.collections then
+      for _, collection_title in ipairs(args.collections) do
+        process_downloads(detail, collection_title)
+      end
+    else
+      process_downloads(detail)
+    end
   end
   if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
     break
