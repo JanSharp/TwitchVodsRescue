@@ -153,11 +153,11 @@ if (config_path / "collections"):exists() then
     collection_files[#collection_files+1] = config_path / "collections" / entry
   end
 end
+table.sort(collection_files, function(left, right)
+  return left:filename() < right:filename()
+end)
 
 if args.list_collections then
-  table.sort(collection_files, function(left, right)
-    return left:filename() < right:filename()
-  end)
   for _, collection in ipairs(collection_files) do
     print(collection:filename())
   end
