@@ -155,8 +155,11 @@ if (config_path / "collections"):exists() then
 end
 
 if args.list_collections then
+  table.sort(collection_files, function(left, right)
+    return left:filename() < right:filename()
+  end)
   for _, collection in ipairs(collection_files) do
-    print(Path.new(collection):filename())
+    print(collection:filename())
   end
   return
 end
@@ -483,12 +486,7 @@ end
 
 ---@param detail Detail
 ---@param collection_title string?
-local function process_downloads(detail, collection_title)
-  if args.dry_run then
-    print(detail.title)
-    return
-  end
-
+local function process_specific_downloads(detail, collection_title)
   local output_path = get_output_path(detail, collection_title)
 
   local metadata_path = output_path / get_metadata_filename(detail, collection_title)
@@ -509,6 +507,23 @@ local function process_downloads(detail, collection_title)
   local chat_path = output_path / get_chat_filename(detail)
   if args.download_chat and not chat_path:exists() then
     download_chat(detail)
+  end
+end
+
+---@param detail Detail
+local function process_downloads(detail)
+  if args.dry_run then
+    print(detail.title)
+    return
+  end
+
+  if not detail.collection_entries[1] then
+    process_specific_downloads(detail)
+    return
+  end
+
+  for _, entry in ipairs(detail.collection_entries) do
+    process_specific_downloads(detail, entry.collection_title)
   end
 end
 
@@ -573,13 +588,7 @@ end
 local start_time = os.time()
 for detail in linq(details):reverse():iterate() do
   if should_process(detail) then
-    if args.collections then
-      for _, collection_title in ipairs(args.collections) do
-        process_downloads(detail, collection_title)
-      end
-    else
-      process_downloads(detail)
-    end
+    process_downloads(detail)
   end
   if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
     break
