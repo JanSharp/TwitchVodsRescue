@@ -224,8 +224,8 @@ for collection_index, collection_str in ipairs(collection_strs) do
 
   while i <= #collection_str do
     read_line()
-    local title = read_line():match("^%s*(.-)%s*$")
     read_line()
+    local title = read_line():match("^%s*(.-)%s*$")
     local date = read_line()
     local length = read_line()
     read_line()
