@@ -256,18 +256,42 @@ end
 -- end
 
 ---@param detail Detail
+local function add_collection_index_prefix(detail, filename)
+  if not detail.collection_entries[1] then
+    return filename
+  end
+  return string.format("%03d  %s", detail.collection_entries[1].index, filename)
+end
+
+---@param detail Detail
 local function get_video_filename(detail)
-  return string.format("%d  %s  %s.mp4", detail.id, detail.created_at, detail.title)
+  return add_collection_index_prefix(
+    detail,
+    string.format("%s  %s.mp4", detail.created_at, detail.title)
+  )
 end
 
 ---@param detail Detail
 local function get_metadata_filename(detail)
-  return string.format("%d  %s  metadata.json", detail.id, detail.created_at, detail.title)
+  return add_collection_index_prefix(
+    detail,
+    string.format("%s  metadata.json", detail.created_at)
+  )
 end
 
 ---@param detail Detail
 local function get_chat_filename(detail)
-  return string.format("%d  %s  chat.json", detail.id, detail.created_at, detail.title)
+  return add_collection_index_prefix(
+    detail,
+    string.format("%s  chat.json", detail.created_at)
+  )
+end
+
+---@param detail Detail
+local function get_output_path(detail)
+  return detail.collection_entries[1]
+    and (Path.new(config.output_directory) / detail.collection_entries[1])
+    or Path.new(config.output_directory)
 end
 
 ---@param detail Detail
@@ -278,7 +302,7 @@ local function download_video(detail)
     "%s videodownload --id %d -o %s %s",
     config.downloader_cli,
     detail.id,
-    shell_util.escape_arg((Path.new(config.output_directory) / filename):str()),
+    shell_util.escape_arg((get_output_path(detail) / filename):str()),
     config.downloader_cli_args
   )
   print(command)
@@ -295,7 +319,7 @@ local function download_chat(detail)
     "%s chatdownload --embed-images --id %d -o %s %s",
     config.downloader_cli,
     detail.id,
-    shell_util.escape_arg((Path.new(config.output_directory) / filename):str()),
+    shell_util.escape_arg((get_output_path(detail) / filename):str()),
     config.downloader_cli_args
   )
   print(command)
@@ -324,7 +348,10 @@ end
 
 ---@param detail Detail
 local function process_downloads(detail)
-  local output_path = Path.new(config.output_directory)
+  local output_path = get_output_path(detail)
+  if detail.collection_entries[1] then
+    output_path = output_path / detail.collection_entries[1].collection_title
+  end
 
   local metadata_path = output_path / get_metadata_filename(detail)
   if not metadata_path:exists() then
@@ -350,7 +377,7 @@ end
 -- ---@param detail Detail
 -- ---@param bypass_warning_checks boolean?
 -- local function add_extra_info_for_video_file(detail, bypass_warning_checks)
---   local output_path = Path.new(config.output_directory)
+--   local output_path = get_output_path(detail)
 --   if not (output_path / get_video_filename(detail)):exists() then return end
 
 --   local metadata_path = output_path / get_metadata_filename(detail)
