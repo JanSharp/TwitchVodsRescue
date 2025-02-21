@@ -300,21 +300,33 @@ do
   end
 end
 
+local unmatched_collection_entries = false
+
 for _, collection in ipairs(collections) do
   for pair in linq(collection)
-    :join(linq(details),
-      function(outer, index) return outer.seconds.." "..outer.title end,
-      function(inner, index) return inner.length.." "..inner.title end,
-      function(outer, inner, index) return {entry = outer, detail = inner} end)
-    :iterate()--[[@as fun(): {entry: CollectionEntry, detail: Detail}]]
+    :group_join(details,
+      function(outer) return outer.seconds.." "..outer.title end,
+      function(inner) return inner.length.." "..inner.title end)
+    :iterate()--[[@as fun(): {key: string, outer: CollectionEntry, inner: Detail[]}]]
   do
-    pair.entry.detail = pair.detail
-    pair.detail.collection_entries[#pair.detail.collection_entries+1] = pair.entry
-    pair.detail.collection_entries_by_collection_title[pair.entry.collection_title] = pair.entry
+    if not pair.inner[1] then
+      io.stderr:write("The collection entry '"..pair.outer.title.."' in the collection '"
+        ..pair.outer.collection_title.."' has no matching video in the details.txt.\n"):flush()
+      unmatched_collection_entries = true
+      goto continue
+    end
+    util.assert(not pair.inner[2], "The collection entry '"..pair.outer.title.."' in the collection '"
+      ..pair.outer.collection_title.."' has multiple matching video in the details.txt?!?!?")
+    pair.outer.detail = pair.inner[1]
+    pair.inner[1].collection_entries[#pair.inner[1].collection_entries+1] = pair.outer
+    pair.inner[1].collection_entries_by_collection_title[pair.outer.collection_title] = pair.outer
+    ::continue::
   end
 end
 
--- TODO: ensure every collection entry gets matched with a detail
+if unmatched_collection_entries then
+  os.exit(1)
+end
 
 -- do
 --   local invalid = false
