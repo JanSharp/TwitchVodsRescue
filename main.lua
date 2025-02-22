@@ -177,7 +177,9 @@ local collection_strs = linq(collection_files)
 local urls = {}
 
 for line in urls_str:gmatch("[^\r\n]+") do
-  urls[#urls+1] = line
+  if line:find("^http") then
+    urls[#urls+1] = line:match("[^\r\n,]+")
+  end
 end
 
 ---@class CollectionEntry
