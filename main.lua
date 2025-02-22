@@ -9,6 +9,8 @@ local lfs = require("lfs")--[[@as LFS]]
 local io_util = require("io_util")
 local json = require("json_util")
 
+Path.set_main_separator("/")
+
 ---@class Args
 ---@field download_video boolean
 ---@field download_chat boolean
