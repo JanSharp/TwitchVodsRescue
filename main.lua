@@ -395,13 +395,18 @@ local function add_collection_index_prefix(detail, collection_title, filename)
   return string.format("%03d  %s", get_collection_index(detail, collection_title), filename)
 end
 
+---@param date string
+local function sanitize_date(date)
+  return date:gsub(":", "-")
+end
+
 ---@param detail Detail
 ---@param collection_title string?
 local function get_video_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
     collection_title,
-    string.format("%s  %s.mp4", detail.created_at, detail.title:gsub("[\\/:*?\"'<>|]", ""))
+    string.format("%s  %s.mp4", sanitize_date(detail.created_at), detail.title:gsub("[\\/:*?\"'<>|]", ""))
   )
 end
 
@@ -417,7 +422,7 @@ local function get_metadata_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
     collection_title,
-    string.format("%s  metadata%s.json", detail.created_at, is_external(detail, collection_title) and " (external)" or "")
+    string.format("%s  metadata%s.json", sanitize_date(detail.created_at), is_external(detail, collection_title) and " (external)" or "")
   )
 end
 
@@ -427,7 +432,7 @@ local function get_chat_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
     collection_title,
-    string.format("%s  chat.json", detail.created_at)
+    string.format("%s  chat.json", sanitize_date(detail.created_at))
   )
 end
 
