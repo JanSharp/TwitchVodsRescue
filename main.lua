@@ -151,6 +151,15 @@ if args.list_collections then
   return
 end
 
+if args.collections then
+  local lut = linq(collection_files):select(function(f) return f:filename() end):to_lookup()
+  for _, collection_title in ipairs(args.collections) do
+    if not lut[collection_title] then
+      util.abort(string.format("No such collection '%s', use the --list-collections option.", collection_title))
+    end
+  end
+end
+
 local urls_str = io_util.read_file(urls_file)
 local details_str = io_util.read_file(details_file)
 local collection_strs = linq(collection_files)
