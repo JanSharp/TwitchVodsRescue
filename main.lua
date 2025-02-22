@@ -399,7 +399,7 @@ local function get_video_filename(detail, collection_title)
   return add_collection_index_prefix(
     detail,
     collection_title,
-    string.format("%s  %s.mp4", detail.created_at, detail.title)
+    string.format("%s  %s.mp4", detail.created_at, detail.title:gsub("[\\/:*?\"'<>|]", ""))
   )
 end
 
