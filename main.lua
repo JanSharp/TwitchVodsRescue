@@ -443,7 +443,7 @@ local function get_collection_prefix_for_printing(detail, collection_title)
   collection_title = collection_title
     or detail.collection_entries[1] and detail.collection_entries[1].collection_title
     or nil
-  return collection_title and (collection_title.."/") or collection_title
+  return collection_title and (collection_title.."/") or ""
 end
 
 ---@param detail Detail
