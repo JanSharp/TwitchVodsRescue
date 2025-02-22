@@ -16,6 +16,7 @@ local json = require("json_util")
 ---@field collections string[]
 ---@field non_collections boolean
 ---@field list_collections boolean
+---@field list_duplicate_titles boolean
 ---@field output_dir string
 ---@field config_dir string
 ---@field temp_dir string
@@ -89,6 +90,12 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       field = "list_collections",
       long = "list-collections",
       description = "List all names of collections",
+      flag = true,
+    },
+    {
+      field = "list_duplicate_titles",
+      long = "list-duplicate-titles",
+      description = "List vods with duplicate titles",
       flag = true,
     },
     {
@@ -348,16 +355,21 @@ end
 --   if invalid then os.exit(1) end
 -- end
 
--- print("duplicate titles:")
--- for group in linq(details)
---   :group_by(function(value, index) return value.title end)
---   :where(function(value, i) return value.count > 1 end)
---   :iterate()
--- do
---   for _, detail in ipairs(group) do
---     print(group.count, detail.title, detail.created_at)
---   end
--- end
+if args.list_duplicate_titles then
+  local duplicate_title_count = 0
+  for group in linq(details)
+    :group_by(function(value, index) return value.title end)
+    :where(function(value, i) return value.count > 1 end)
+    :iterate()
+  do
+    duplicate_title_count = duplicate_title_count + 1
+    for _, detail in ipairs(group) do
+      print(group.count, detail.created_at, (detail--[[@as Detail]]).url, detail.title)
+    end
+  end
+  print("unique duplicate title count: "..duplicate_title_count)
+  return
+end
 
 ---@param detail Detail
 ---@param collection_title string?
