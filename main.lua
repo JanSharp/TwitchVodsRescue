@@ -543,20 +543,6 @@ local function process_downloads(detail)
   end
 end
 
----@param detail Detail
-local function should_process(detail)
-  if args.non_collections then
-    return not detail.collection_entries[1]
-  end
-  if args.collections then
-    return detail.collection_entries[1]
-      and linq(args.collections)
-        :intersect(linq(detail.collection_entries):select(function(e) return e.collection_title end))
-        :any()
-  end
-  return true
-end
-
 if args.list_videos then
   if args.non_collections or not args.collections then
     print("Videos not in any collections:")
@@ -581,12 +567,32 @@ if args.list_videos then
 end
 
 local start_time = os.time()
-for detail in linq(details):reverse():iterate() do
-  if should_process(detail) then
-    process_downloads(detail)
+local function should_abort()
+  return not args.dry_run
+    and args.time_limit > 0
+    and (os.time() - start_time) > (args.time_limit * 60)
+end
+
+if args.collections then
+  local collection_lut = linq(collections):to_dict(function(c) return c[1].collection_title, c end)
+  local visited = {}
+  for _, collection_title in ipairs(args.collections) do
+    for _, entry in ipairs(collection_lut[collection_title]) do
+      local detail = entry.detail
+      if visited[detail] then goto continue end -- Just for better --dry-run output.
+      visited[detail] = true
+      process_downloads(detail)
+      if should_abort() then goto done end
+      ::continue::
+    end
   end
-  if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
-    break
+  ::done::
+else
+  for detail in linq(details):reverse():iterate() do
+    if not args.non_collections or not detail.collection_entries[1] then
+      process_downloads(detail)
+    end
+    if should_abort() then break end
   end
 end
 
