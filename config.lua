@@ -6,5 +6,7 @@ return {
   --
   -- On Windows you'd follow these steps, except for step 5: https://github.com/lay295/TwitchDownloader?tab=readme-ov-file#windows---getting-started
   --   Then use this: "C:\folder\containing\TwitchDownloaderCLI\TwitchDownloaderCLI.exe"
+  --   Could also put it inside of a folder inside of this repo, or relative to it, and then use a relative path,
+  --   meaning no "C:", just "TwitchDownloaderCLI\TwitchDownloaderCLI.exe" or "..\TwitchDownloaderCLI\TwitchDownloaderCLI.exe" if it's up one directory
   downloader_cli = "TwitchDownloaderCLI", -- This path should not contain any white spaces, or otherwise weird characters.
 }
