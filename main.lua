@@ -23,28 +23,8 @@ local json = require("json_util")
 ---@field dry_run boolean
 ---@field help boolean
 
--- ---@field no_warn_on_missing_metadata boolean
--- ---@field no_warn_on_missing_chat boolean
-
 local args = arg_parser.parse_and_print_on_error_or_help({...}, {
   options = {
-    -- {
-    --   field = "no_warn_on_missing_metadata",
-    --   long = "no-warn-on-missing-metadata",
-    --   description = "If a video exists without an associated metadata file, the program\n\z
-    --     generates a warning because that video may not have finished\n\z
-    --     downloading correctly. By ignoring this warning it will\n\z
-    --     simply generate the missing metadata file.",
-    --   flag = true,
-    -- },
-    -- {
-    --   field = "no_warn_on_missing_chat",
-    --   long = "no-warn-on-missing-chat",
-    --   description = "Same as --no-warn-on-missing-metadata, except\n\z
-    --     that when the file is missing it will start a download for\n\z
-    --     the video's chat history.",
-    --   flag = true,
-    -- },
     {
       field = "download_video",
       long = "download-video",
@@ -545,50 +525,6 @@ local function process_downloads(detail)
     process_specific_downloads(detail, entry.collection_title)
   end
 end
-
--- local missing_files = false
-
--- ---@param detail Detail
--- ---@param bypass_warning_checks boolean?
--- local function add_extra_info_for_video_file(detail, bypass_warning_checks)
---   local output_path = get_output_path(detail)
---   if not (output_path / get_video_filename(detail)):exists() then return end
-
---   local metadata_path = output_path / get_metadata_filename(detail)
---   if not metadata_path:exists() then
---     if not bypass_warning_checks and not args.no_warn_on_missing_metadata then
---       io.stderr:write("Missing metadata file for the video file '"..metadata_path:str()
---         .."', make sure the video finished downloading successfully. If it did then \z
---         use the --no-warn-on-missing-metadata option to make it generate a new \z
---         metadata file instead of aborting."):flush()
---       missing_files = true
---     end
---     io_util.write_file(
---       metadata_path,
---       get_metadata_file_contents(detail)
---     )
---   end
-
---   local chat_path = output_path / get_chat_filename(detail)
---   if not chat_path:exists() then
---     if not bypass_warning_checks and not args.no_warn_on_missing_chat then
---       io.stderr:write("Missing chat file for the video file '"..chat_path:str()
---         .."', make sure the video finished downloading successfully. If it did then \z
---         use the --no-warn-on-missing-chat option to make it download chat history \z
---         instead of aborting."):flush()
---       missing_files = true
---     end
---     download_chat(detail)
---   end
--- end
-
--- for _, detail in ipairs(details) do
---   add_extra_info_for_video_file(detail)
--- end
-
--- if missing_files then
---   util.abort()
--- end
 
 ---@param detail Detail
 local function should_process(detail)
