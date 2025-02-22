@@ -428,9 +428,17 @@ end
 
 ---@param detail Detail
 ---@param collection_title string?
+local function get_collection_prefix_for_printing(detail, collection_title)
+  collection_title = collection_title or detail.collection_entries[1].collection_title
+  return collection_title and (collection_title.."/") or collection_title
+end
+
+---@param detail Detail
+---@param collection_title string?
 local function download_video(detail, collection_title)
   local filename = get_video_filename(detail, collection_title)
-  print("downloading "..filename)
+  print("Downloading: "..get_collection_prefix_for_printing(detail, collection_title)..filename)
+  if args.dry_run then return end
   local command = string.format(
     "%s videodownload --id %d -o %s%s",
     config.downloader_cli,
@@ -448,7 +456,8 @@ end
 ---@param collection_title string?
 local function download_chat(detail, collection_title)
   local filename = get_chat_filename(detail, collection_title)
-  print("downloading "..filename)
+  print("Downloading: "..get_collection_prefix_for_printing(detail, collection_title)..filename)
+  if args.dry_run then return end
   local command = string.format(
     "%s chatdownload --embed-images --id %d -o %s%s",
     config.downloader_cli,
@@ -491,10 +500,13 @@ local function process_specific_downloads(detail, collection_title)
 
   local metadata_path = output_path / get_metadata_filename(detail, collection_title)
   if not metadata_path:exists() then
-    io_util.write_file(
-      metadata_path,
-      get_metadata_file_contents(detail)
-    )
+    print("Creating:    "..get_collection_prefix_for_printing(detail, collection_title)..get_metadata_filename(detail, collection_title))
+    if not args.dry_run then
+      io_util.write_file(
+        metadata_path,
+        get_metadata_file_contents(detail)
+      )
+    end
   end
 
   if is_external(detail, collection_title) then return end
@@ -512,11 +524,6 @@ end
 
 ---@param detail Detail
 local function process_downloads(detail)
-  if args.dry_run then
-    print(detail.title)
-    return
-  end
-
   if not detail.collection_entries[1] then
     process_specific_downloads(detail)
     return
@@ -593,4 +600,8 @@ for detail in linq(details):reverse():iterate() do
   if args.time_limit > 0 and (os.time() - start_time) > (args.time_limit * 60) then
     break
   end
+end
+
+if args.dry_run then
+  print("Done.")
 end
