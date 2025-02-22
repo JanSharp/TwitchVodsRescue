@@ -17,6 +17,7 @@ local json = require("json_util")
 ---@field non_collections boolean
 ---@field list_collections boolean
 ---@field list_duplicate_titles boolean
+---@field list_videos boolean
 ---@field output_dir string
 ---@field config_dir string
 ---@field temp_dir string
@@ -76,6 +77,13 @@ local args = arg_parser.parse_and_print_on_error_or_help({...}, {
       field = "list_duplicate_titles",
       long = "list-duplicate-titles",
       description = "List vods with duplicate titles",
+      flag = true,
+    },
+    {
+      field = "list_videos",
+      long = "list-videos",
+      description = "Lists vods in order, respects --collections and\n\z
+        --non-collections as filters.",
       flag = true,
     },
     {
@@ -547,6 +555,29 @@ local function should_process(detail)
         :any()
   end
   return true
+end
+
+if args.list_videos then
+  if args.non_collections or not args.collections then
+    print("Videos not in any collections:")
+    for detail in linq(details):reverse():iterate() do
+      if detail.collection_entries[1] then goto continue end
+      print(string.format("  %s  %s", detail.created_at, detail.title))
+      ::continue::
+    end
+  end
+  if args.non_collections then return end
+  local lut = args.collections and util.invert(args.collections)
+  for _, collection_entries in ipairs(collections) do
+    local title = collection_entries[1].collection_title
+    if lut and not lut[title] then goto continue end
+    print(title..":")
+    for _, entry in ipairs(collection_entries) do
+      print(string.format("  %-3d  %s  %s", entry.index, entry.detail.created_at, entry.title))
+    end
+    ::continue::
+  end
+  return
 end
 
 local start_time = os.time()
