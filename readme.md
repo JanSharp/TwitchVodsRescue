@@ -1,4 +1,10 @@
 
+# Deprecated
+
+This script has been superseded by [TwitchVodsRescueCS](https://github.com/JanSharp/TwitchVodsRescueCS), which is a C# transcription of this Lua script, plus additional features.
+
+Further more the https://twitch-tools.rootonline.de/vod_manager.php website has been updated which changes its layout on the page which breaks this script if one were to follow the instructions in the [configuration/readme.md](configuration/readme.md). The [TwitchVodsRescueCS](https://github.com/JanSharp/TwitchVodsRescueCS) is compatible with the updated website.
+
 # Usage
 
 ## Setup
